@@ -1,10 +1,7 @@
 cv:
   name: Chaeun Park
-  label: Undergraduate in Mathematics and Physics
   email: chaeunnara@snu.ac.kr
   location: Seoul, South Korea
-  image: ""
-  summary: Undergraduate student interested in geometry, partial differential equations, and high-energy physics.
 
   social_networks:
     - network: GitHub
