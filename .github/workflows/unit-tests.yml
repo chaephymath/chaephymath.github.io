@@ -1,42 +1,8 @@
 name: Integration tests
 
-on:
-  push:
-    branches:
-      - master
-      - main
-      - v1.0-dev
-    paths:
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "_config.yml"
-      - "_data/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "test/**"
-      - "package.json"
-      - "package-lock.json"
-      - ".github/workflows/unit-tests.yml"
-  pull_request:
-    branches:
-      - master
-      - main
-      - v1.0-dev
-    paths:
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "_config.yml"
-      - "_data/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "test/**"
-      - "package.json"
-      - "package-lock.json"
-      - ".github/workflows/unit-tests.yml"
+# These checks validate the starter's sample fixtures. This personal site intentionally
+# removes those fixtures, so keep the suite available for manual maintenance runs only.
+on: workflow_dispatch
 
 jobs:
   comments-integration-tests:
