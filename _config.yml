@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Chaeun Park's academic website. Notes on mathematics and physics, research interests, teaching, and academic activities.
 footer_text: >
-  © 2026 Chaeun Park. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: mathematics, physics, geometry, partial differential equations, high energy physics, Seoul National University
 lang: ko
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
