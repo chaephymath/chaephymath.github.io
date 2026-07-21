@@ -1,34 +1,38 @@
 ---
 layout: about
-title: about
+title: About / 소개
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Mathematics & Physics Undergraduate at Seoul National University
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: chaeun-profile.png
+  image_circular: true
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+안녕하세요, **박채운(Chaeun Park)**입니다. 서울대학교 물리천문학부에서 물리학을 전공하고 수리과학부를 복수전공하고 있습니다.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+수학에서는 **기하학(geometry)**과 **편미분방정식(partial differential equations)**에 관심이 있으며, 물리학에서는 **고에너지 물리학(high-energy physics)**에 관심을 두고 공부하고 있습니다. 서로 다른 언어로 자연을 설명하는 수학과 물리학이 어디에서 만나고, 그 연결이 어떤 새로운 관점을 만드는지 탐구하고 싶습니다.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+이 웹사이트에는 수학과 물리학을 공부하며 정리한 글, 관심 있는 연구 주제, 프로젝트, 강의 및 학술 활동을 기록합니다. 아직 배우는 과정에 있는 만큼 완성된 결론뿐 아니라 질문이 발전하는 과정도 성실하게 남기려 합니다.
+
+---
+
+Hello! I am **Chaeun Park**, an undergraduate student at Seoul National University, majoring in Physics with a double major in Mathematical Sciences.
+
+My mathematical interests include **geometry** and **partial differential equations**, while my interests in physics center on **high-energy physics**. I am particularly interested in the ways mathematics and physics meet and provide complementary perspectives on fundamental questions.
+
+This website is a record of my studies, research interests, projects, teaching, and academic activities. I hope to document not only polished results, but also the questions and ideas that develop along the way.
