@@ -12,6 +12,10 @@ module ChaeunSite
         var navbar = document.getElementById("navbar");
         if (!navbar || !document.body.classList.contains("fixed-top-nav")) return;
 
+        navbar.querySelectorAll(".navbar-menu-list .nav-link").forEach(function (link) {
+          link.style.whiteSpace = "nowrap";
+        });
+
         var styles = window.getComputedStyle(navbar);
         var marginTop = parseFloat(styles.marginTop) || 0;
         var marginBottom = parseFloat(styles.marginBottom) || 0;
