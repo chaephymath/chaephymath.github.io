@@ -1,7 +1,20 @@
-<!DOCTYPE html> <html lang="ko"> <head> <script data-initial-scroll-position>
-  if (!window.location.hash) {
-    window.scrollTo(0, 0);
-  }
+<!DOCTYPE html> <html lang="ko"> <head> <script data-navbar-space>
+  document.addEventListener("DOMContentLoaded", function () {
+    var navbar = document.getElementById("navbar");
+    if (!navbar || !document.body.classList.contains("fixed-top-nav")) return;
+
+    var styles = window.getComputedStyle(navbar);
+    var marginTop = parseFloat(styles.marginTop) || 0;
+    var marginBottom = parseFloat(styles.marginBottom) || 0;
+    var navbarHeight = Math.round(
+      navbar.getBoundingClientRect().height + marginTop + marginBottom
+    );
+
+    document.body.style.paddingTop = navbarHeight + "px";
+
+    var progress = document.getElementById("progress");
+    if (progress) progress.style.top = navbarHeight + "px";
+  }, { once: true });
 </script> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content="6jdL38U34ukCDxh_RVWGLNxMr99OM2Cw007NQw2wlSw"> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Blog / 글 | 박채운 | Chaeun Park </title> <meta name="author" content="Chaeun Park"> <meta name="description" content="Chaeun Park's academic website. Notes on mathematics and physics, research interests, teaching, and academic activities. "> <meta name="keywords" content="mathematics, physics, geometry, partial differential equations, high energy physics, Seoul National University"> <meta property="og:site_name" content="박채운 | Chaeun Park"> <meta property="og:type" content="website"> <meta property="og:title" content="박채운 | Chaeun Park | Blog / 글"> <meta property="og:url" content="https://chaephymath.github.io/blog/"> <meta property="og:description" content="Chaeun Park's academic website. Notes on mathematics and physics, research interests, teaching, and academic activities. "> <meta property="og:locale" content="ko"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Blog / 글"> <meta name="twitter:description" content="Chaeun Park's academic website. Notes on mathematics and physics, research interests, teaching, and academic activities. "> <script type="application/ld+json">
     {
         "author":
