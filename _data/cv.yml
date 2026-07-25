@@ -25,6 +25,62 @@ cv:
         start_date: 2026-04
         end_date: 2026-08
         summary: Private, in-person undergraduate mentoring based on Chapters 2–8 of Munkres' Topology.
+      - company: Algebra Mentoring
+        position: Mentor
+        location: Seoul, South Korea
+        start_date: 2024-01
+        end_date: 2024-02
+        summary: >-
+          Private, in-person mentoring for two students, covering selected topics from Chapters 1–14 of
+          Dummit and Foote's Abstract Algebra.
+
+    Academic Study Groups:
+      - company: Advanced Quantum Field Theory
+        position: Lead Organizer and Presenter
+        location: Seoul National University, Seoul, South Korea
+        start_date: 2026-01
+        end_date: present
+        summary: >-
+          Co-leading an advanced, year-long study of quantum field theory with a small group of core presenters.
+          Topics are organized primarily around Ramond, with selected material from Schwartz, Srednicki, and other references.
+      - company: Introductory Quantum Field Theory
+        position: Presenter
+        location: Seoul National University, Seoul, South Korea
+        start_date: 2025-01-03
+        end_date: 2025-02-21
+        summary: >-
+          Participated in a rotating seminar-style introduction to quantum field theory based on Ramond's
+          Field Theory: A Modern Primer, with Professor Seok Kim invited as faculty mentor.
+      - company: Compact Lie Group Representation Theory
+        position: Presenter
+        location: Seoul National University, Seoul, South Korea
+        start_date: 2024-09
+        end_date: 2024-12
+        summary: Participated in a rotating seminar based on Representations of Compact Lie Groups.
+    Presentations:
+      - name: "The Power of Symmetry: From Rotations to Particles, Forces, and Gravity"
+        date: 2026-07
+        location: CERN, Geneva, Switzerland
+        summary: >-
+          Joint presentation with Drim Choi and Seokwon Lee at the CERN–CKC Summer Student Programme 2026.
+          Presented Part III, “Massless Spin-2 and Einstein Gravity,” on how gauge invariance and the
+          self-consistent coupling of a massless spin-2 field lead from Fierz–Pauli theory to Einstein gravity.
+      - name: >-
+          PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
+        date: 2024-12-18
+        location: Seoul, South Korea
+        summary: >-
+          Poster presentation with Haeun Chung at the 2024 Undergraduate Research Presentation, based on
+          experimental nuclear physics research conducted during Nishina School 2024.
+
+    Awards:
+      - name: Excellence Award, 2024 Undergraduate Research Presentation
+        date: 2024-12-18
+        location: Seoul National University, Seoul, South Korea
+        summary: >-
+          Awarded by the Department of Physics and Astronomy for the poster “PIGE Analysis of ¹²C(p,γ)¹³N and
+          ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
+          Nishina School 2024.
 
     Conferences & Schools:
       - name: CERN-Korean Summer Student Program
@@ -53,12 +109,22 @@ cv:
         summary: Participant
 
     Research Interests:
-      - name: Mathematics
+      - name: Nonlinear PDEs and Fluids
+        icon: fa-solid fa-water
+        summary: >-
+          Existence, regularity, and nonlinear dynamics of fluid equations, particularly the Euler equations,
+          with attention to the effects of boundaries and singular geometry.
+      - name: Hyperbolic Geometry and Geometric Group Theory
         icon: fa-solid fa-shapes
-        keywords: "Geometry, Partial Differential Equations"
-      - name: Physics
+        summary: >-
+          Discrete group actions on hyperbolic spaces, especially Fuchsian groups, and how group-theoretic and
+          representation-theoretic properties are reflected in geometry, topology, and dynamics.
+      - name: Quantum Field Theory and Gravitation
         icon: fa-solid fa-atom
-        keywords: "High-Energy Physics"
+        summary: >-
+          The relation between quantum field theory and spacetime geometry, from conserved quantities such as
+          Komar integrals and ADM mass to holographic duality in AdS/CFT. I am also interested in how black-hole
+          physics connects quantum chaos, random matrix theory, and SYK models.
 
     Languages:
       - name: Korean
