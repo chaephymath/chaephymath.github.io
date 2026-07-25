@@ -20,12 +20,18 @@ cv:
 
     Teaching:
       - company: Topology Mentoring
+        bullet: >-
+          **Topology Mentoring** — Mentor, private and in person (April–August 2026). Undergraduate mentoring
+          based on Chapters 2–8 of Munkres' *Topology*.
         position: Mentor
         location: Seoul, South Korea
         start_date: 2026-04
         end_date: 2026-08
         summary: Private, in-person undergraduate mentoring based on Chapters 2–8 of Munkres' Topology.
       - company: Algebra Mentoring
+        bullet: >-
+          **Algebra Mentoring** — Mentor, private and in person (January–February 2024). Guided two students
+          through selected topics from Chapters 1–14 of Dummit and Foote's *Abstract Algebra*.
         position: Mentor
         location: Seoul, South Korea
         start_date: 2024-01
@@ -36,6 +42,10 @@ cv:
 
     Academic Study Groups:
       - company: Advanced Quantum Field Theory
+        bullet: >-
+          **Advanced Quantum Field Theory** — Lead Organizer and Presenter, Seoul National University
+          (January 2026–present). Co-leading an advanced, year-long study centered on Ramond, with selected
+          material from Schwartz, Srednicki, and other references.
         position: Lead Organizer and Presenter
         location: Seoul National University, Seoul, South Korea
         start_date: 2026-01
@@ -44,6 +54,10 @@ cv:
           Co-leading an advanced, year-long study of quantum field theory with a small group of core presenters.
           Topics are organized primarily around Ramond, with selected material from Schwartz, Srednicki, and other references.
       - company: Introductory Quantum Field Theory
+        bullet: >-
+          **Introductory Quantum Field Theory** — Presenter, Seoul National University (January 3–February 21,
+          2025). Rotating seminar based on Ramond's *Field Theory: A Modern Primer*, with Professor Seok Kim
+          invited as faculty mentor.
         position: Presenter
         location: Seoul National University, Seoul, South Korea
         start_date: 2025-01-03
@@ -52,6 +66,9 @@ cv:
           Participated in a rotating seminar-style introduction to quantum field theory based on Ramond's
           Field Theory: A Modern Primer, with Professor Seok Kim invited as faculty mentor.
       - company: Compact Lie Group Representation Theory
+        bullet: >-
+          **Compact Lie Group Representation Theory** — Presenter, Seoul National University
+          (September–December 2024). Rotating seminar based on *Representations of Compact Lie Groups*.
         position: Presenter
         location: Seoul National University, Seoul, South Korea
         start_date: 2024-09
@@ -59,6 +76,10 @@ cv:
         summary: Participated in a rotating seminar based on Representations of Compact Lie Groups.
     Presentations:
       - name: "The Power of Symmetry: From Rotations to Particles, Forces, and Gravity"
+        bullet: >-
+          **The Power of Symmetry: From Rotations to Particles, Forces, and Gravity** — Joint presentation with
+          Drim Choi and Seokwon Lee at CERN (July 2026). Presented Part III, “Massless Spin-2 and Einstein
+          Gravity,” on the route from Fierz–Pauli theory to Einstein gravity.
         date: 2026-07
         location: CERN, Geneva, Switzerland
         summary: >-
@@ -67,6 +88,10 @@ cv:
           self-consistent coupling of a massless spin-2 field lead from Fierz–Pauli theory to Einstein gravity.
       - name: >-
           PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
+        bullet: >-
+          **PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron
+          Accelerator** — Poster presented with Haeun Chung at the 2024 Undergraduate Research Presentation,
+          based on experimental nuclear physics research conducted during Nishina School 2024.
         date: 2024-12-18
         location: Seoul, South Korea
         summary: >-
@@ -75,6 +100,8 @@ cv:
 
     Awards:
       - name: Excellence Award, 2024 Undergraduate Research Presentation
+        title: Excellence Award, 2024 Undergraduate Research Presentation
+        awarder: Department of Physics and Astronomy, Seoul National University
         date: 2024-12-18
         location: Seoul National University, Seoul, South Korea
         summary: >-
@@ -84,42 +111,68 @@ cv:
 
     Conferences & Schools:
       - name: CERN-Korean Summer Student Program
+        bullet: >-
+          **CERN-Korean Summer Student Program** — Participant, CERN, Geneva, Switzerland
+          (June 29–July 11, 2026).
         date: 2026-06-29 to 2026-07-11
         location: CERN, Geneva, Switzerland
         summary: Participant
       - name: SNU-APCTP Winter School on Fundamental Physics
+        bullet: >-
+          **SNU-APCTP Winter School on Fundamental Physics** — Participant, Seoul National University
+          (February 2–6, 2026).
         date: 2026-02-02 to 2026-02-06
         location: Seoul National University, Seoul, South Korea
         summary: Participant
       - name: The 12th Korea PDE Winter School
+        bullet: >-
+          **The 12th Korea PDE Winter School** — Participant, POSTECH, Pohang (January 19–23, 2026).
         date: 2026-01-19 to 2026-01-23
         location: POSTECH, Pohang, South Korea
         summary: Participant
       - name: Nishina School 2024
+        bullet: >-
+          **Nishina School 2024** — Participant, RIKEN, Japan (July 25–August 2, 2024).
         date: 2024-07-25 to 2024-08-02
         location: RIKEN, Japan
         summary: Participant
       - name: The 3rd International Undergraduate Mathematics Summer School
+        bullet: >-
+          **The 3rd International Undergraduate Mathematics Summer School** — Participant, Seoul National
+          University (August 7–18, 2023).
         date: 2023-08-07 to 2023-08-18
         location: Seoul National University, Seoul, South Korea
         summary: Participant
       - name: 10-10 Summer School on Mathematics of Deep Learning and AI
+        bullet: >-
+          **10-10 Summer School on Mathematics of Deep Learning and AI** — Participant, Seoul National
+          University (August 7–8, 2023).
         date: 2023-08-07 to 2023-08-08
         location: Seoul National University, Seoul, South Korea
         summary: Participant
 
     Research Interests:
       - name: Nonlinear PDEs and Fluids
+        bullet: >-
+          **Nonlinear PDEs and Fluids** — Existence, regularity, and nonlinear dynamics of fluid equations,
+          particularly the Euler equations, with attention to the effects of boundaries and singular geometry.
         icon: fa-solid fa-water
         summary: >-
           Existence, regularity, and nonlinear dynamics of fluid equations, particularly the Euler equations,
           with attention to the effects of boundaries and singular geometry.
       - name: Hyperbolic Geometry and Geometric Group Theory
+        bullet: >-
+          **Hyperbolic Geometry and Geometric Group Theory** — Discrete group actions on hyperbolic spaces,
+          especially Fuchsian groups, and how algebraic properties are reflected in geometry, topology, and dynamics.
         icon: fa-solid fa-shapes
         summary: >-
           Discrete group actions on hyperbolic spaces, especially Fuchsian groups, and how group-theoretic and
           representation-theoretic properties are reflected in geometry, topology, and dynamics.
       - name: Quantum Field Theory and Gravitation
+        bullet: >-
+          **Quantum Field Theory and Gravitation** — Relations between quantum field theory and spacetime
+          geometry, including Komar integrals, ADM mass, AdS/CFT, black-hole physics, quantum chaos, random
+          matrix theory, and SYK models.
         icon: fa-solid fa-atom
         summary: >-
           The relation between quantum field theory and spacetime geometry, from conserved quantities such as
