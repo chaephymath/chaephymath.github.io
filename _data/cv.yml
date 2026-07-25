@@ -110,6 +110,13 @@ cv:
           Nishina School 2024.
 
     Conferences & Schools:
+      - name: The 6th International Undergraduate Mathematics Summer School
+        bullet: >-
+          **The 6th International Undergraduate Mathematics Summer School** — Participant, Seoul National
+          University (July 27–August 7, 2026).
+        date: 2026-07-27 to 2026-08-07
+        location: Seoul National University, Seoul, South Korea
+        summary: Participant
       - name: CERN-Korean Summer Student Program
         bullet: >-
           **CERN-Korean Summer Student Program** — Participant, CERN, Geneva, Switzerland
