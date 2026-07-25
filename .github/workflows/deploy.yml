@@ -1,6 +1,14 @@
 name: Deploy site
 
 on:
+  workflow_run:
+    workflows:
+      - Render a CV
+    types:
+      - completed
+    branches:
+      - master
+      - main
   push:
     branches:
       - master
@@ -14,6 +22,7 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "!_data/cv.yml"
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
@@ -64,11 +73,16 @@ permissions:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          # workflow_run's SHA predates the PDF commit made by the RenderCV workflow.
+          # Check out the branch so this build includes the newly rendered PDF.
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref }}
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
