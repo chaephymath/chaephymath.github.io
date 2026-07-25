@@ -1,9 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: 글
-lang: ko
-translation_url: /en/blog/
+title: Blog / 글
 nav: true
 nav_order: 1
 pagination:
@@ -17,8 +15,6 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
-
-{% include language-switch.liquid %}
 
 <div class="post">
 
