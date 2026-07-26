@@ -24,7 +24,7 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1 style="font-size: clamp(2.25rem, 12vw, 5rem); overflow-wrap: anywhere;">
+    <h1 style="font-size: clamp(2.75rem, 15vw, 5rem); overflow-wrap: anywhere;">
       {{ site.blog_name }}
     </h1>
     <h2>{{ site.blog_description }}</h2>
