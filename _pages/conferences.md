@@ -9,13 +9,11 @@ nav_order: 6
 
 학회, 워크숍, 여름·겨울학교 등 참여한 학술 활동을 정리합니다.
 
-## Upcoming
+## Attended
 
 ### [The 6th International Undergraduate Mathematics Summer School](https://www.math.snu.ac.kr/~okoert/summerschool2026/about.html)
 
 **July 27–August 7, 2026 · Seoul National University · Participant**
-
-## Attended
 
 ### [CERN-Korean Summer Student Program](https://indico.cern.ch/event/1642096/)
 
