@@ -19,7 +19,15 @@ cv:
           - College of Natural Sciences
 
     Research Experience:
+      # The website's generic sections use bullet; RenderCV uses company/position/highlights.
+      # Keep these two representations aligned without adding a duplicate PDF summary.
       - company: Computational Study of Pseudomodular Fuchsian Groups
+        bullet: |-
+          **Computational Study of Pseudomodular Fuchsian Groups** — Research Intern, advised by Prof. Gye-Seon Lee · Mar–Aug 2026 · SNU, Seoul, South Korea
+
+          - Studied constructions of pseudomodular Fuchsian groups through Long–Reid’s “Pseudomodular Surfaces,” focusing on the relationship between rational cusp sets, arithmeticity, and commensurability.
+          - Developed Python/SymPy computations to reproduce trace-based arithmeticity tests, detect rational fixed points of hyperbolic elements, and construct killer-interval coverings.
+          - Reproduced computational certificates for the pseudomodularity of Δ(2/5, 4) and Δ(3/7, 4), with an appendix-guided verification for Δ(3/11, 4); documented the work in an internship report.
         position: Research Intern, advised by Prof. Gye-Seon Lee
         location: SNU, Seoul, South Korea
         start_date: 2026-03
@@ -35,6 +43,12 @@ cv:
             Reproduced computational certificates for the pseudomodularity of Δ(2/5, 4) and Δ(3/7, 4), with an
             appendix-guided verification for Δ(3/11, 4); documented the work in an internship report.
       - company: Local Well-Posedness of Incompressible Euler Equations on Singular Domains
+        bullet: |-
+          **Local Well-Posedness of Incompressible Euler Equations on Singular Domains** — Research Intern, advised by Prof. Injee Jeong (now at KIAS) · Mar–Aug 2025 · SNU, Seoul, South Korea
+
+          - Investigated local well-posedness of incompressible Euler equations in Sobolev spaces via velocity–pressure methods and energy estimates.
+          - Studied energy and pressure estimates in whole-space, half-space, and corner domains, including boundary compatibility and elliptic regularity.
+          - Prepared a research report and presented the work.
         position: Research Intern, advised by Prof. Injee Jeong (now at KIAS)
         location: SNU, Seoul, South Korea
         start_date: 2025-03
@@ -192,6 +206,11 @@ cv:
           information theory and superconducting quantum circuits. Recognized as an SQRT alumnus (certificate
           issued February 26, 2025).
       - company: Convergence — Mathematics Academic Club
+        bullet: |-
+          **Convergence — Mathematics Academic Club** — Member, SEGL Project, advised by Prof. Gye-Seon Lee · 2023 · SNU, Seoul, South Korea
+
+          - Studied discrete hyperbolic reflection groups in the SEGL (SNU Experimental Geometry Lab) project, drawing on Hohlweg–Labbé–Ripoll’s work on infinite Coxeter groups.
+          - Contributed theoretical analysis and hand calculations to a collaborative Python visualization of limit sets.
         position: Member, SEGL Project, advised by Prof. Gye-Seon Lee
         location: SNU, Seoul, South Korea
         date: 2023
