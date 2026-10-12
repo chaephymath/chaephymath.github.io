@@ -20,27 +20,14 @@ cv:
 
     Research Experience:
       - company: Computational Study of Pseudomodular Fuchsian Groups
-        bullet: >-
-          **Computational Study of Pseudomodular Fuchsian Groups** — Research Internship, advised by
-          Prof. Gye-Seon Lee at the SNU Department of Mathematical Sciences (March–August 2026). Studied rational
-          cusp sets, arithmeticity, and commensurability; developed Python/SymPy calculations for trace-based
-          arithmeticity tests, rational fixed-point searches, and killer-interval coverings; and reproduced
-          computational certificates for Δ(2/5, 4), Δ(3/7, 4), and Δ(3/11, 4).
-        position: Research Internship
+        position: Research Intern, advised by Prof. Gye-Seon Lee
         location: SNU, Seoul, South Korea
         start_date: 2026-03
         end_date: 2026-08
-        summary: >-
-          Advised by Prof. Gye-Seon Lee. Studied the construction of pseudomodular Fuchsian groups through Long–Reid’s “Pseudomodular
-          Surfaces,” focusing on rational cusp sets, arithmeticity, and commensurability. Developed
-          Python/SymPy calculations for trace-based arithmeticity tests, rational fixed-point searches, and
-          killer-interval coverings. Reproduced computational certificates for Δ(2/5, 4) and Δ(3/7, 4), and
-          performed an appendix-guided verification for Δ(3/11, 4). Documented the methods and results in an
-          undergraduate research internship report.
         highlights:
           - >-
-            Studied constructions of pseudomodular Fuchsian groups and the relationship between rational cusp
-            sets, arithmeticity, and commensurability.
+            Studied constructions of pseudomodular Fuchsian groups through Long–Reid’s “Pseudomodular Surfaces,”
+            focusing on the relationship between rational cusp sets, arithmeticity, and commensurability.
           - >-
             Developed Python/SymPy computations to reproduce trace-based arithmeticity tests, detect rational
             fixed points of hyperbolic elements, and construct killer-interval coverings.
@@ -48,28 +35,90 @@ cv:
             Reproduced computational certificates for the pseudomodularity of Δ(2/5, 4) and Δ(3/7, 4), with an
             appendix-guided verification for Δ(3/11, 4); documented the work in an internship report.
       - company: Local Well-Posedness of Incompressible Euler Equations on Singular Domains
-        bullet: >-
-          **Local Well-Posedness of Incompressible Euler Equations on Singular Domains** — Research Internship,
-          advised by Prof. Injee Jeong (currently at KIAS) at Seoul National University (March–August 2025).
-          Investigated velocity–pressure methods, Sobolev energy estimates, pressure regularity, boundary
-          compatibility, and elliptic regularity in the whole space, half-space, and domains with corners.
-        position: Research Internship
+        position: Research Intern, advised by Prof. Injee Jeong (now at KIAS)
         location: SNU, Seoul, South Korea
         start_date: 2025-03
         end_date: 2025-08
-        summary: >-
-          At SNU, advised by Prof. Injee Jeong (now at KIAS). Investigated local well-posedness of the
-          incompressible Euler equations in Sobolev spaces via
-          velocity–pressure methods. Studied energy estimates and pressure regularity in the whole space,
-          half-space, and domains with corners, including boundary compatibility and elliptic regularity issues.
-          Prepared a research report and presented the work.
         highlights:
           - >-
-            Investigated local well-posedness of incompressible Euler equations via velocity–pressure methods
-            and Sobolev estimates.
+            Investigated local well-posedness of incompressible Euler equations in Sobolev spaces via
+            velocity–pressure methods and energy estimates.
           - >-
             Studied energy and pressure estimates in whole-space, half-space, and corner domains, including
-            boundary-regularity issues.
+            boundary compatibility and elliptic regularity.
+          - Prepared a research report and presented the work.
+
+    Presentations & Posters:
+      - name: "The Power of Symmetry: From Rotations to Particles, Forces, and Gravity"
+        bullet: >-
+          **The Power of Symmetry: From Rotations to Particles, Forces, and Gravity** — Joint presentation with
+          Drim Choi and Seokwon Lee at CERN (July 2026). Presented Part III, “Massless Spin-2 and Einstein
+          Gravity,” on the route from Fierz–Pauli theory to Einstein gravity.
+        date: 2026-07
+        location: CERN, Geneva, Switzerland
+        summary: >-
+          Joint presentation with Drim Choi and Seokwon Lee at the CERN–CKC Summer Student Programme 2026.
+          Presented Part III, “Massless Spin-2 and Einstein Gravity,” on how gauge invariance and the
+          self-consistent coupling of a massless spin-2 field lead from Fierz–Pauli theory to Einstein gravity.
+      - name: Parabolic Krylov–Safonov Harnack Inequality
+        bullet: >-
+          **Parabolic Krylov–Safonov Harnack Inequality** — Course final presentation for *Special Topics in
+          Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations*, taught by Prof. Sun-Sig
+          Byun (June 2026). Presented parabolic ABP estimates, measure and propagation lemmas, Vitali covering,
+          level-set decay, weak Harnack and Harnack inequalities, and Hölder regularity.
+        date: 2026-06
+        location: SNU, Seoul, South Korea
+        role: Course Final Presentation
+        course: "Special Topics in Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations"
+        instructor: Prof. Sun-Sig Byun
+        source: Beomjun Choi, Parabolic Krylov–Safonov Harnack Inequality (lecture notes)
+        materials_dated: "2026-06-09"
+        summary: >-
+          Final presentation for Prof. Sun-Sig Byun’s special-topics course on regularity methods for nonlinear
+          elliptic and parabolic equations. Based on Beomjun Choi’s notes, covered parabolic ABP estimates,
+          measure and propagation lemmas, Vitali covering, level-set decay, weak and full Harnack inequalities,
+          and Hölder regularity.
+      - name: Euler Equations on 2D Singular Domains
+        bullet: >-
+          **Euler Equations on 2D Singular Domains** — Course final presentation for *Special Topics in
+          Analysis: Regularity Theory for Partial Differential Equations*, taught by Prof. Sun-Sig Byun
+          (December 2025). Presented Yudovich well-posedness, nonsmooth boundaries and corners, log-Lipschitz
+          velocity estimates, Lagrangian flow maps, and the Osgood criterion.
+        date: 2025-12
+        location: SNU, Seoul, South Korea
+        role: Course Final Presentation
+        course: "Special Topics in Analysis: Regularity Theory for Partial Differential Equations"
+        instructor: Prof. Sun-Sig Byun
+        source: Zonglin Han, Euler Equations on 2D Singular Domains (2023 doctoral thesis)
+        materials_dated: "2025-12-08"
+        summary: >-
+          Final presentation for Prof. Sun-Sig Byun’s special-topics course on regularity theory for partial
+          differential equations. Using Zonglin Han’s dissertation, reviewed Yudovich well-posedness on
+          nonsmooth and corner domains, log-Lipschitz velocity estimates, Lagrangian flows and the Osgood
+          criterion.
+      - name: >-
+          PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
+        bullet: >-
+          **PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron
+          Accelerator** — Poster presented with Haeun Chung at the 2024 Undergraduate Research Presentation at
+          Seoul National University, based on experimental nuclear physics research conducted during Nishina
+          School 2024.
+        date: 2024-12-18
+        location: SNU, Seoul, South Korea
+        summary: >-
+          Poster presentation with Haeun Chung at the 2024 Undergraduate Research Presentation, based on
+          experimental nuclear physics research conducted during Nishina School 2024.
+
+    Honors and Awards:
+      - name: Excellence Award, 2024 Undergraduate Research Presentation
+        title: Excellence Award, 2024 Undergraduate Research Presentation
+        awarder: Department of Physics and Astronomy, Seoul National University
+        date: 2024-12-18
+        location: SNU, Seoul, South Korea
+        summary: >-
+          Awarded by the Department of Physics and Astronomy for the poster “PIGE Analysis of ¹²C(p,γ)¹³N and
+          ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
+          Nishina School 2024.
 
     Teaching & Mentoring:
       - company: Topology Mentoring
@@ -143,98 +192,16 @@ cv:
           information theory and superconducting quantum circuits. Recognized as an SQRT alumnus (certificate
           issued February 26, 2025).
       - company: Convergence — Mathematics Academic Club
-        bullet: >-
-          **Convergence — Mathematics Academic Club** — Member of the SEGL (Experimental Geometry Lab) project,
-          advised by Prof. Gye-Seon Lee (2023). Studied discrete hyperbolic reflection groups and contributed
-          theoretical analysis and hand calculations to a collaborative Python visualization of limit sets,
-          drawing on Hohlweg–Labbé–Ripoll’s work on infinite Coxeter groups.
-        position: Member, SEGL Project
+        position: Member, SEGL Project, advised by Prof. Gye-Seon Lee
         location: SNU, Seoul, South Korea
-        start_date: "2023"
-        end_date: "2023"
-        summary: >-
-          Participated in the SEGL (Seoul National University Experimental Geometry Lab) project within the
-          Convergence mathematics club, advised by Prof. Gye-Seon Lee. Studied the theory of discrete reflection
-          groups in hyperbolic geometry and primarily contributed theoretical analysis and hand calculations to
-          a collaborative Python visualization of limit sets, drawing on Hohlweg–Labbé–Ripoll’s work on infinite
-          Coxeter groups.
+        date: 2023
         highlights:
           - >-
-            Studied the theory of discrete hyperbolic reflection groups and performed hand calculations for a
-            collaborative Python-based limit-set visualization.
-          - "Participated in the SEGL project within Convergence; faculty adviser: Prof. Gye-Seon Lee."
-
-    Presentations & Posters:
-      - name: "The Power of Symmetry: From Rotations to Particles, Forces, and Gravity"
-        bullet: >-
-          **The Power of Symmetry: From Rotations to Particles, Forces, and Gravity** — Joint presentation with
-          Drim Choi and Seokwon Lee at CERN (July 2026). Presented Part III, “Massless Spin-2 and Einstein
-          Gravity,” on the route from Fierz–Pauli theory to Einstein gravity.
-        date: 2026-07
-        location: CERN, Geneva, Switzerland
-        summary: >-
-          Joint presentation with Drim Choi and Seokwon Lee at the CERN–CKC Summer Student Programme 2026.
-          Presented Part III, “Massless Spin-2 and Einstein Gravity,” on how gauge invariance and the
-          self-consistent coupling of a massless spin-2 field lead from Fierz–Pauli theory to Einstein gravity.
-      - name: Parabolic Krylov–Safonov Harnack Inequality
-        bullet: >-
-          **Parabolic Krylov–Safonov Harnack Inequality** — Course final presentation for *Special Topics in
-          Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations*, taught by Prof. Sun-Sig
-          Byun (June 2026). Presented parabolic ABP estimates, measure and propagation lemmas, Vitali covering,
-          level-set decay, weak Harnack and Harnack inequalities, and Hölder regularity.
-        date: 2026-06
-        location: SNU, Seoul, South Korea
-        role: Course Final Presentation
-        course: "Special Topics in Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations"
-        instructor: Prof. Sun-Sig Byun
-        source: Beomjun Choi, Parabolic Krylov–Safonov Harnack Inequality (lecture notes)
-        materials_dated: "2026-06-09"
-        summary: >-
-          Final presentation for Prof. Sun-Sig Byun’s special-topics course on regularity methods for nonlinear
-          elliptic and parabolic equations. Based on Beomjun Choi’s notes, covered parabolic ABP estimates,
-          measure and propagation lemmas, Vitali covering, level-set decay, weak and full Harnack inequalities,
-          and Hölder regularity.
-      - name: Euler Equations on 2D Singular Domains
-        bullet: >-
-          **Euler Equations on 2D Singular Domains** — Course final presentation for *Special Topics in
-          Analysis: Regularity Theory for Partial Differential Equations*, taught by Prof. Sun-Sig Byun
-          (December 2025). Presented Yudovich well-posedness, nonsmooth boundaries and corners, log-Lipschitz
-          velocity estimates, Lagrangian flow maps, and the Osgood criterion.
-        date: 2025-12
-        location: SNU, Seoul, South Korea
-        role: Course Final Presentation
-        course: "Special Topics in Analysis: Regularity Theory for Partial Differential Equations"
-        instructor: Prof. Sun-Sig Byun
-        source: Zonglin Han, Euler Equations on 2D Singular Domains (2023 doctoral thesis)
-        materials_dated: "2025-12-08"
-        summary: >-
-          Final presentation for Prof. Sun-Sig Byun’s special-topics course on regularity theory for partial
-          differential equations. Using Zonglin Han’s dissertation, reviewed Yudovich well-posedness on
-          nonsmooth and corner domains, log-Lipschitz velocity estimates, Lagrangian flows and the Osgood
-          criterion.
-      - name: >-
-          PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
-        bullet: >-
-          **PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron
-          Accelerator** — Poster presented with Haeun Chung at the 2024 Undergraduate Research Presentation at
-          Seoul National University, based on experimental nuclear physics research conducted during Nishina
-          School 2024.
-        date: 2024-12-18
-        location: SNU, Seoul, South Korea
-        summary: >-
-          Poster presentation with Haeun Chung at the 2024 Undergraduate Research Presentation, based on
-          experimental nuclear physics research conducted during Nishina School 2024.
-
-    Honors and Awards:
-      - name: Excellence Award, 2024 Undergraduate Research Presentation
-        title: Excellence Award, 2024 Undergraduate Research Presentation
-        awarder: Department of Physics and Astronomy, Seoul National University
-        date: 2024-12-18
-        location: SNU, Seoul, South Korea
-        summary: >-
-          Awarded by the Department of Physics and Astronomy for the poster “PIGE Analysis of ¹²C(p,γ)¹³N and
-          ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
-          Nishina School 2024.
+            Studied discrete hyperbolic reflection groups in the SEGL (SNU Experimental Geometry Lab) project,
+            drawing on Hohlweg–Labbé–Ripoll’s work on infinite Coxeter groups.
+          - >-
+            Contributed theoretical analysis and hand calculations to a collaborative Python visualization
+            of limit sets.
 
     Mathematics Schools & Workshops:
       - name: The 6th International Undergraduate Mathematics Summer School
