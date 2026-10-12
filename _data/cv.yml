@@ -96,8 +96,8 @@ cv:
         bullet: >-
           **Euler Equations on 2D Singular Domains** — Course final presentation for *Special Topics in
           Analysis: Regularity Theory for Partial Differential Equations*, taught by Prof. Sun-Sig Byun
-          (December 2025). Presented Yudovich well-posedness, nonsmooth boundaries and corners, log-Lipschitz
-          velocity estimates, Lagrangian flow maps, and the Osgood criterion.
+          (December 2025). Reviewed classical Yudovich theory and its extensions and limitations in nonsmooth
+          domains with corners, emphasizing log-Lipschitz estimates, Lagrangian flows, and the Osgood criterion.
         date: 2025-12
         location: SNU, Seoul, South Korea
         role: Course Final Presentation
@@ -107,9 +107,9 @@ cv:
         materials_dated: "2025-12-08"
         summary: >-
           Final presentation for Prof. Sun-Sig Byun’s special-topics course on regularity theory for partial
-          differential equations. Using Zonglin Han’s dissertation, reviewed Yudovich well-posedness on
-          nonsmooth and corner domains, log-Lipschitz velocity estimates, Lagrangian flows and the Osgood
-          criterion.
+          differential equations. Reviewed classical Yudovich theory and its extensions and limitations in
+          nonsmooth domains with corners, emphasizing log-Lipschitz estimates, Lagrangian flows, and the
+          Osgood criterion.
       - name: >-
           PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
         bullet: >-
