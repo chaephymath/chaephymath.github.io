@@ -11,14 +11,67 @@ cv:
     Education:
       - institution: Seoul National University
         location: Seoul, South Korea
-        area: Physics; Mathematical Sciences (Double Major)
-        studyType: Undergraduate
+        area: Physics and Mathematical Sciences (Double Major)
+        studyType: B.S. (Expected August 2027)
         start_date: 2022
-        end_date: 2027
+        end_date: 2027-08
         highlights:
           - College of Natural Sciences
 
-    Teaching:
+    Research Experience:
+      - company: Computational Study of Pseudomodular Fuchsian Groups
+        bullet: >-
+          **Computational Study of Pseudomodular Fuchsian Groups** — Undergraduate Research Intern, advised by
+          Prof. Gye-Seon Lee at the SNU Department of Mathematical Sciences (March–August 2026). Studied rational
+          cusp sets, arithmeticity, and commensurability; developed Python/SymPy calculations for trace-based
+          arithmeticity tests, rational fixed-point searches, and killer-interval coverings; and reproduced
+          computational certificates for Δ(2/5, 4), Δ(3/7, 4), and Δ(3/11, 4).
+        position: Undergraduate Research Intern
+        location: SNU, Seoul, South Korea
+        start_date: 2026-03
+        end_date: 2026-08
+        summary: >-
+          Advised by Prof. Gye-Seon Lee. Studied the construction of pseudomodular Fuchsian groups through Long–Reid’s “Pseudomodular
+          Surfaces,” focusing on rational cusp sets, arithmeticity, and commensurability. Developed
+          Python/SymPy calculations for trace-based arithmeticity tests, rational fixed-point searches, and
+          killer-interval coverings. Reproduced computational certificates for Δ(2/5, 4) and Δ(3/7, 4), and
+          performed an appendix-guided verification for Δ(3/11, 4). Documented the methods and results in an
+          undergraduate research internship report.
+        highlights:
+          - >-
+            Studied constructions of pseudomodular Fuchsian groups and the relationship between rational cusp
+            sets, arithmeticity, and commensurability.
+          - >-
+            Developed Python/SymPy computations to reproduce trace-based arithmeticity tests, detect rational
+            fixed points of hyperbolic elements, and construct killer-interval coverings.
+          - >-
+            Reproduced computational certificates for the pseudomodularity of Δ(2/5, 4) and Δ(3/7, 4), with an
+            appendix-guided verification for Δ(3/11, 4); documented the work in an internship report.
+      - company: Local Well-Posedness of Incompressible Euler Equations on Singular Domains
+        bullet: >-
+          **Local Well-Posedness of Incompressible Euler Equations on Singular Domains** — Undergraduate
+          Researcher, advised by Prof. Injee Jeong at the Korea Institute for Advanced Study (March–August
+          2025). Investigated velocity–pressure methods, Sobolev energy estimates, pressure regularity, boundary
+          compatibility, and elliptic regularity in the whole space, half-space, and domains with corners.
+        position: Undergraduate Researcher
+        location: KIAS, Seoul, South Korea
+        start_date: 2025-03
+        end_date: 2025-08
+        summary: >-
+          Advised by Prof. Injee Jeong. Investigated local well-posedness of the incompressible Euler equations in Sobolev spaces via
+          velocity–pressure methods. Studied energy estimates and pressure regularity in the whole space,
+          half-space, and domains with corners, including boundary compatibility and elliptic regularity issues.
+          Prepared a research report and presented the work.
+        highlights:
+          - >-
+            Investigated local well-posedness of incompressible Euler equations via velocity–pressure methods
+            and Sobolev estimates.
+          - >-
+            Studied energy and pressure estimates in whole-space, half-space, and corner domains, including
+            boundary-regularity issues.
+          - Prepared a research report and gave a presentation on the problem.
+
+    Teaching & Mentoring:
       - company: Topology Mentoring
         bullet: >-
           **Topology Mentoring** — Mentor, private and in person (April–August 2026). Undergraduate mentoring
@@ -74,7 +127,44 @@ cv:
         start_date: 2024-09
         end_date: 2024-12
         summary: Participated in a rotating seminar based on Representations of Compact Lie Groups.
-    Presentations:
+
+    Clubs:
+      - company: SQRT (SNU Quantum Research Team)
+        bullet: >-
+          **SQRT (SNU Quantum Research Team)** — Member, Seoul National University (September 2022–2025).
+          Participated in study sessions on quantum information theory and superconducting quantum circuits;
+          recognized as an SQRT alumnus (certificate issued February 26, 2025).
+        position: Member
+        location: Seoul National University, Seoul, South Korea
+        start_date: 2022-09
+        end_date: "2025"
+        summary: >-
+          Participated in club study sessions on quantum computing, including fundamentals of quantum
+          information theory and superconducting quantum circuits. Recognized as an SQRT alumnus (certificate
+          issued February 26, 2025).
+      - company: Convergence — Mathematics Academic Club
+        bullet: >-
+          **Convergence — Mathematics Academic Club** — Member of the SEGL (Experimental Geometry Lab) project,
+          advised by Prof. Gye-Seon Lee (2023). Studied discrete hyperbolic reflection groups and contributed
+          theoretical analysis and hand calculations to a collaborative Python visualization of limit sets,
+          drawing on Hohlweg–Labbé–Ripoll’s work on infinite Coxeter groups.
+        position: Member, SEGL Project
+        location: SNU, Seoul, South Korea
+        start_date: "2023"
+        end_date: "2023"
+        summary: >-
+          Participated in the SEGL (Seoul National University Experimental Geometry Lab) project within the
+          Convergence mathematics club, advised by Prof. Gye-Seon Lee. Studied the theory of discrete reflection
+          groups in hyperbolic geometry and primarily contributed theoretical analysis and hand calculations to
+          a collaborative Python visualization of limit sets, drawing on Hohlweg–Labbé–Ripoll’s work on infinite
+          Coxeter groups.
+        highlights:
+          - >-
+            Studied the theory of discrete hyperbolic reflection groups and performed hand calculations for a
+            collaborative Python-based limit-set visualization.
+          - "Participated in the SEGL project within Convergence; faculty adviser: Prof. Gye-Seon Lee."
+
+    Presentations & Posters:
       - name: "The Power of Symmetry: From Rotations to Particles, Forces, and Gravity"
         bullet: >-
           **The Power of Symmetry: From Rotations to Particles, Forces, and Gravity** — Joint presentation with
@@ -86,10 +176,44 @@ cv:
           Joint presentation with Drim Choi and Seokwon Lee at the CERN–CKC Summer Student Programme 2026.
           Presented Part III, “Massless Spin-2 and Einstein Gravity,” on how gauge invariance and the
           self-consistent coupling of a massless spin-2 field lead from Fierz–Pauli theory to Einstein gravity.
-      - name: >-
-          PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
+      - name: Parabolic Krylov–Safonov Harnack Inequality
         bullet: >-
-          **PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron
+          **Parabolic Krylov–Safonov Harnack Inequality** — Course final presentation for *Special Topics in
+          Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations*, taught by Prof. Sun-Sig
+          Byun (June 2026). Presented parabolic ABP estimates, measure and propagation lemmas, Vitali covering,
+          level-set decay, weak Harnack and Harnack inequalities, and Hölder regularity.
+        date: 2026-06
+        location: Seoul National University, Seoul, South Korea
+        role: Course Final Presentation
+        course: "Special Topics in Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations"
+        instructor: Prof. Sun-Sig Byun
+        source: Beomjun Choi, Parabolic Krylov–Safonov Harnack Inequality (lecture notes)
+        materials_dated: "2026-06-09"
+        summary: >-
+          Prepared and delivered a Beamer lecture based on Beomjun Choi’s notes, tracing parabolic ABP
+          estimates, measure and propagation lemmas, Vitali covering and level-set decay to weak Harnack,
+          Harnack inequality and Hölder regularity.
+      - name: Euler Equations on 2D Singular Domains
+        bullet: >-
+          **Euler Equations on 2D Singular Domains** — Course final presentation for *Special Topics in
+          Analysis: Regularity Theory for Partial Differential Equations*, taught by Prof. Sun-Sig Byun
+          (December 2025). Presented Yudovich well-posedness, nonsmooth boundaries and corners, log-Lipschitz
+          velocity estimates, Lagrangian flow maps, and the Osgood criterion.
+        date: 2025-12
+        location: Seoul National University, Seoul, South Korea
+        role: Course Final Presentation
+        course: "Special Topics in Analysis: Regularity Theory for Partial Differential Equations"
+        instructor: Prof. Sun-Sig Byun
+        source: Zonglin Han, Euler Equations on 2D Singular Domains (2023 doctoral thesis)
+        materials_dated: "2025-12-08"
+        summary: >-
+          Presented an expository review of Yudovich well-posedness and the challenges of nonsmooth boundaries
+          and corners, using Zonglin Han’s dissertation; explained log-Lipschitz velocity estimates, Lagrangian
+          flow maps and the Osgood criterion.
+      - name: >-
+          PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator
+        bullet: >-
+          **PIGE Analysis of ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron
           Accelerator** — Poster presented with Haeun Chung at the 2024 Undergraduate Research Presentation,
           based on experimental nuclear physics research conducted during Nishina School 2024.
         date: 2024-12-18
@@ -98,7 +222,7 @@ cv:
           Poster presentation with Haeun Chung at the 2024 Undergraduate Research Presentation, based on
           experimental nuclear physics research conducted during Nishina School 2024.
 
-    Awards:
+    Honors and Awards:
       - name: Excellence Award, 2024 Undergraduate Research Presentation
         title: Excellence Award, 2024 Undergraduate Research Presentation
         awarder: Department of Physics and Astronomy, Seoul National University
@@ -106,10 +230,10 @@ cv:
         location: Seoul National University, Seoul, South Korea
         summary: >-
           Awarded by the Department of Physics and Astronomy for the poster “PIGE Analysis of ¹²C(p,γ)¹³N and
-          ²⁷Al(p,γ)²⁷Al, Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
+          ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
           Nishina School 2024.
 
-    Conferences & Schools:
+    Mathematics Schools & Workshops:
       - name: The 6th International Undergraduate Mathematics Summer School
         bullet: >-
           **The 6th International Undergraduate Mathematics Summer School** — Participant, Seoul National
@@ -117,31 +241,11 @@ cv:
         date: 2026-07-27 to 2026-08-07
         location: Seoul National University, Seoul, South Korea
         summary: Participant
-      - name: CERN-Korean Summer Student Program
-        bullet: >-
-          **CERN-Korean Summer Student Program** — Participant, CERN, Geneva, Switzerland
-          (June 29–July 11, 2026).
-        date: 2026-06-29 to 2026-07-11
-        location: CERN, Geneva, Switzerland
-        summary: Participant
-      - name: SNU-APCTP Winter School on Fundamental Physics
-        bullet: >-
-          **SNU-APCTP Winter School on Fundamental Physics** — Participant, Seoul National University
-          (February 2–6, 2026).
-        date: 2026-02-02 to 2026-02-06
-        location: Seoul National University, Seoul, South Korea
-        summary: Participant
       - name: The 12th Korea PDE Winter School
         bullet: >-
           **The 12th Korea PDE Winter School** — Participant, POSTECH, Pohang (January 19–23, 2026).
         date: 2026-01-19 to 2026-01-23
         location: POSTECH, Pohang, South Korea
-        summary: Participant
-      - name: Nishina School 2024
-        bullet: >-
-          **Nishina School 2024** — Participant, RIKEN, Japan (July 25–August 2, 2024).
-        date: 2024-07-25 to 2024-08-02
-        location: RIKEN, Japan
         summary: Participant
       - name: The 3rd International Undergraduate Mathematics Summer School
         bullet: >-
@@ -156,6 +260,28 @@ cv:
           University (August 7–8, 2023).
         date: 2023-08-07 to 2023-08-08
         location: Seoul National University, Seoul, South Korea
+        summary: Participant
+
+    Physics Schools & Workshops:
+      - name: CERN-Korean Summer Student Program
+        bullet: >-
+          **CERN-Korean Summer Student Program** — Participant, CERN, Geneva, Switzerland
+          (June 29–July 11, 2026).
+        date: 2026-06-29 to 2026-07-11
+        location: CERN, Geneva, Switzerland
+        summary: Participant
+      - name: SNU-APCTP Winter School on Fundamental Physics
+        bullet: >-
+          **SNU-APCTP Winter School on Fundamental Physics** — Participant, Seoul National University
+          (February 2–6, 2026).
+        date: 2026-02-02 to 2026-02-06
+        location: Seoul National University, Seoul, South Korea
+        summary: Participant
+      - name: Nishina School 2024
+        bullet: >-
+          **Nishina School 2024** — Participant, RIKEN, Japan (July 25–August 2, 2024).
+        date: 2024-07-25 to 2024-08-02
+        location: RIKEN, Japan
         summary: Participant
 
     Research Interests:
