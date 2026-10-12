@@ -70,7 +70,6 @@ cv:
           - >-
             Studied energy and pressure estimates in whole-space, half-space, and corner domains, including
             boundary-regularity issues.
-          - Prepared a research report and gave a presentation on the problem.
 
     Teaching & Mentoring:
       - company: Topology Mentoring
@@ -101,7 +100,7 @@ cv:
           (January 2026–present). Co-leading an advanced, year-long study centered on Ramond, with selected
           material from Schwartz, Srednicki, and other references.
         position: Lead Organizer and Presenter
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         start_date: 2026-01
         end_date: present
         summary: >-
@@ -113,7 +112,7 @@ cv:
           2025). Rotating seminar based on Ramond's *Field Theory: A Modern Primer*, with Professor Seok Kim
           invited as faculty mentor.
         position: Presenter
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         start_date: 2025-01-03
         end_date: 2025-02-21
         summary: >-
@@ -124,7 +123,7 @@ cv:
           **Compact Lie Group Representation Theory** — Presenter, Seoul National University
           (September–December 2024). Rotating seminar based on *Representations of Compact Lie Groups*.
         position: Presenter
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         start_date: 2024-09
         end_date: 2024-12
         summary: Participated in a rotating seminar based on Representations of Compact Lie Groups.
@@ -136,7 +135,7 @@ cv:
           Participated in study sessions on quantum information theory and superconducting quantum circuits;
           recognized as an SQRT alumnus (certificate issued February 26, 2025).
         position: Member
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         start_date: 2022-09
         end_date: "2025"
         summary: >-
@@ -184,7 +183,7 @@ cv:
           Byun (June 2026). Presented parabolic ABP estimates, measure and propagation lemmas, Vitali covering,
           level-set decay, weak Harnack and Harnack inequalities, and Hölder regularity.
         date: 2026-06
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         role: Course Final Presentation
         course: "Special Topics in Analysis: Regularity Methods for Nonlinear Elliptic and Parabolic Equations"
         instructor: Prof. Sun-Sig Byun
@@ -202,7 +201,7 @@ cv:
           (December 2025). Presented Yudovich well-posedness, nonsmooth boundaries and corners, log-Lipschitz
           velocity estimates, Lagrangian flow maps, and the Osgood criterion.
         date: 2025-12
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         role: Course Final Presentation
         course: "Special Topics in Analysis: Regularity Theory for Partial Differential Equations"
         instructor: Prof. Sun-Sig Byun
@@ -231,7 +230,7 @@ cv:
         title: Excellence Award, 2024 Undergraduate Research Presentation
         awarder: Department of Physics and Astronomy, Seoul National University
         date: 2024-12-18
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         summary: >-
           Awarded by the Department of Physics and Astronomy for the poster “PIGE Analysis of ¹²C(p,γ)¹³N and
           ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on research conducted during
@@ -243,7 +242,7 @@ cv:
           **The 6th International Undergraduate Mathematics Summer School** — Participant, Seoul National
           University (July 27–August 7, 2026).
         date: 2026-07-27 to 2026-08-07
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         summary: Participant
       - name: The 12th Korea PDE Winter School
         bullet: >-
@@ -256,14 +255,14 @@ cv:
           **The 3rd International Undergraduate Mathematics Summer School** — Participant, Seoul National
           University (August 7–18, 2023).
         date: 2023-08-07 to 2023-08-18
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         summary: Participant
       - name: 10-10 Summer School on Mathematics of Deep Learning and AI
         bullet: >-
           **10-10 Summer School on Mathematics of Deep Learning and AI** — Participant, Seoul National
           University (August 7–8, 2023).
         date: 2023-08-07 to 2023-08-08
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         summary: Participant
 
     Physics Schools & Workshops:
@@ -279,7 +278,7 @@ cv:
           **SNU-APCTP Winter School on Fundamental Physics** — Participant, Seoul National University
           (February 2–6, 2026).
         date: 2026-02-02 to 2026-02-06
-        location: Seoul National University, Seoul, South Korea
+        location: SNU, Seoul, South Korea
         summary: Participant
       - name: Nishina School 2024
         bullet: >-
