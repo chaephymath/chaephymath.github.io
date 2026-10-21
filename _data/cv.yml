@@ -123,9 +123,25 @@ cv:
           Poster presentation with Haeun Chung at the 2024 Undergraduate Research Presentation, based on
           experimental nuclear physics research conducted during Nishina School 2024.
 
-    Honors and Awards:
+    Honors, Awards & Scholarships:
+      - name: Hyunsong Scholarship
+        title: Hyunsong Scholarship
+        bullet: >-
+          **Hyunsong Scholarship** — Hyunsong Educational & Cultural Foundation (2023–2025).
+          Received every semester for six semesters.
+        awarder: Hyunsong Educational & Cultural Foundation
+        start_date: 2023
+        end_date: 2025
+        summary: >-
+          Awarded by the Hyunsong Educational & Cultural Foundation every semester from 2023 to 2025
+          (six semesters).
       - name: Excellence Award, 2024 Undergraduate Research Presentation
         title: Excellence Award, 2024 Undergraduate Research Presentation
+        bullet: >-
+          **Excellence Award, 2024 Undergraduate Research Presentation** — Department of Physics and
+          Astronomy, Seoul National University (December 18, 2024). Awarded for the poster “PIGE Analysis of
+          ¹²C(p,γ)¹³N and ²⁷Al(p,p′γ)²⁷Al, ²⁷Al(p,αγ)²⁴Mg Reactions using Pelletron Accelerator,” based on
+          research conducted during Nishina School 2024.
         awarder: Department of Physics and Astronomy, Seoul National University
         date: 2024-12-18
         location: SNU, Seoul, South Korea
