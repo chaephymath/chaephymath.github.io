@@ -7,7 +7,6 @@ tags: [mathematics, geometry, linear-algebra]
 categories: [study-notes]
 lang: en
 math: true
-giscus_comments: false
 related_posts: false
 ---
 
