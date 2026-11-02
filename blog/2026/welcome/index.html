@@ -42,7 +42,41 @@
     var progress = document.getElementById("progress");
     if (progress) progress.style.top = navbarHeight + "px";
   })();
-</script> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Welcome: 수학과 물리학을 공부하고 기록하는 공간</h1> <p class="post-meta"> Created on July 22, 2026 </p> <p class="post-tags"> <a href="/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/blog/tag/mathematics"> <i class="fa-solid fa-hashtag fa-sm"></i> mathematics</a>   <a href="/blog/tag/physics"> <i class="fa-solid fa-hashtag fa-sm"></i> physics</a>   ·   <a href="/blog/category/study-notes"> <i class="fa-solid fa-tag fa-sm"></i> study-notes</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>안녕하세요. 수학과 물리학을 공부하고 있는 박채운입니다.</p> <p>이 블로그는 공부하면서 마주한 개념과 질문을 제 언어로 다시 정리하기 위해 만들었습니다. 수학에서는 기하학과 편미분방정식에, 물리학에서는 고에너지 물리학에 관심을 가지고 있습니다. 앞으로 강의에서 배운 내용, 혼자 탐구한 문제, 흥미롭게 읽은 연구와 프로젝트의 진행 과정을 기록할 예정입니다.</p> <p>완성된 결과만 보여주는 공간보다는 생각이 조금씩 정교해지는 과정을 담는 공간으로 만들고 싶습니다. 기록에 오류나 부족한 부분이 있을 수 있지만, 계속 공부하고 수정하면서 더 정확하고 유용한 글을 쌓아가겠습니다.</p> <p>방문해 주셔서 감사합니다.</p> <hr> <p>Hello! I am Chaeun Park, an undergraduate student studying mathematics and physics.</p> <p>I created this website to restate the concepts and questions I encounter in my own words. My current interests include geometry and partial differential equations in mathematics, and high-energy physics in physics. I plan to share course notes, independent explorations, research topics that catch my attention, and the development of future projects.</p> <p>Rather than presenting only finished results, I hope this will be a place where ideas become clearer over time. The notes may occasionally be incomplete, but I will continue to revise them as I learn.</p> <p>Thank you for visiting.</p> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Chaeun Park. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. </div> </footer> <script>
+</script> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Welcome: 수학과 물리학을 공부하고 기록하는 공간</h1> <p class="post-meta"> Created on July 22, 2026 </p> <p class="post-tags"> <a href="/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/blog/tag/mathematics"> <i class="fa-solid fa-hashtag fa-sm"></i> mathematics</a>   <a href="/blog/tag/physics"> <i class="fa-solid fa-hashtag fa-sm"></i> physics</a>   ·   <a href="/blog/category/study-notes"> <i class="fa-solid fa-tag fa-sm"></i> study-notes</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>안녕하세요. 수학과 물리학을 공부하고 있는 박채운입니다.</p> <p>이 블로그는 공부하면서 마주한 개념과 질문을 제 언어로 다시 정리하기 위해 만들었습니다. 수학에서는 기하학과 편미분방정식에, 물리학에서는 고에너지 물리학에 관심을 가지고 있습니다. 앞으로 강의에서 배운 내용, 혼자 탐구한 문제, 흥미롭게 읽은 연구와 프로젝트의 진행 과정을 기록할 예정입니다.</p> <p>완성된 결과만 보여주는 공간보다는 생각이 조금씩 정교해지는 과정을 담는 공간으로 만들고 싶습니다. 기록에 오류나 부족한 부분이 있을 수 있지만, 계속 공부하고 수정하면서 더 정확하고 유용한 글을 쌓아가겠습니다.</p> <p>방문해 주셔서 감사합니다.</p> <hr> <p>Hello! I am Chaeun Park, an undergraduate student studying mathematics and physics.</p> <p>I created this website to restate the concepts and questions I encounter in my own words. My current interests include geometry and partial differential equations in mathematics, and high-energy physics in physics. I plan to share course notes, independent explorations, research topics that catch my attention, and the development of future projects.</p> <p>Rather than presenting only finished results, I hope this will be a place where ideas become clearer over time. The notes may occasionally be incomplete, but I will continue to revise them as I learn.</p> <p>Thank you for visiting.</p> </div> </article> <div id="giscus_thread" style="max-width: 930px; margin: 0 auto;"> <br> <script>
+    (function setupGiscus() {
+      function determineGiscusTheme() {
+        var theme = localStorage.getItem("theme") || document.documentElement.getAttribute("data-theme") || "system";
+if (theme === "dark") return "dark";
+if (theme === "light") return "light";
+var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+return prefersDark ? "dark" : "light";
+
+      }
+
+      var giscusTheme = determineGiscusTheme();
+      var attrs = {
+        src: "https://giscus.app/client.js",
+        "data-repo": "chaephymath/chaephymath.github.io",
+        "data-repo-id": "R_kgDOTeMlWw",
+        "data-category": "Announcements",
+        "data-category-id": "DIC_kwDOTeMlW84DKPNE",
+        "data-mapping": "pathname",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        crossorigin: "anonymous",
+        async: true
+      };
+
+      var giscusScript = document.createElement("script");
+      Object.entries(attrs).forEach(function(entry) { giscusScript.setAttribute(entry[0], entry[1]); });
+      var host = document.getElementById("giscus_thread");
+      if (host) host.appendChild(giscusScript);
+    })();
+  </script> <noscript> Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a> </noscript> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Chaeun Park. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
