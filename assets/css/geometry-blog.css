@@ -1,0 +1,50 @@
+.geometry-article {
+  line-height: 1.85;
+  overflow-wrap: break-word;
+}
+
+.geometry-article h2 {
+  margin-top: 2.5rem;
+  scroll-margin-top: 6rem;
+}
+
+.geometry-figure {
+  margin: 2rem 0;
+  scroll-margin-top: 6rem;
+}
+
+.geometry-figure > a {
+  display: block;
+  padding: clamp(0.5rem, 2vw, 1.25rem);
+  border: 1px solid #dce3e8;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.geometry-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.geometry-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+
+/* MathJax creates these elements after the site's CSS purge step. */
+.geometry-article mjx-container[display="true"] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+}
+
+.geometry-article + .footnotes {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color, #dce3e8);
+  font-size: 0.9em;
+}
