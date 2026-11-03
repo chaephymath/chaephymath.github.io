@@ -306,6 +306,8 @@ $$
 
 The role played by a single edge in two dimensions is played by a triangular face in three dimensions. The coordinate products appear as the volumes of three smaller triangular pyramids, while the projection appears through the heights of two triangular pyramids with a common base.
 
+The same reasoning extends readily to $$n$$ dimensions; we leave the details as an exercise.
+
 ## 6. Oriented areas and volumes
 
 So far, we have placed $$P$$ where the pictures can be read as sums of ordinary areas and volumes. But an inner product can be negative, and vectors can point in any direction. To extend the picture to general vectors, we need to **record orientation as well as magnitude**.
