@@ -57,32 +57,32 @@ For this auxiliary line, the constant $$c$$ is $$ab$$. From this perspective, $$
 
 ## 2. The distance from a point to a line
 
-Now move $$P=(x,y)$$ beyond $$AB$$. In the configuration shown, where $$x,y>0$$ and $$ax+by>ab$$, we can divide the quadrilateral $$OBPA$$ in two ways.
+Now consider a point $$Q=(x_1,y_1)$$ lying beyond the line $$AB$$. In the configuration shown, where $$x_1,y_1>0$$ and $$ax_1+by_1>ab$$, we can divide the quadrilateral $$OBQA$$ in two ways.
 
-If we divide it along the diagonal $$OP$$, the sum of the two triangle areas is still $$\frac12(ax+by)$$. If we divide it along the diagonal $$AB$$ instead, we have the original triangle $$OAB$$ with a new triangle $$ABP$$ attached. Therefore,
+If we divide it along the diagonal $$OQ$$, the sum of the two triangle areas is still $$\frac12(ax_1+by_1)$$. If we divide it along the diagonal $$AB$$ instead, we have the original triangle $$OAB$$ with a new triangle $$ABQ$$ attached. Therefore,
 
 $$
-\left[ABP\right]=\frac12(ax+by-ab).
+\left[ABQ\right]=\frac12(ax_1+by_1-ab).
 $$
 
 Taking $$AB$$ as the base of this new triangle, its height is exactly the distance $$d$$ we want. By the Pythagorean theorem, $$\lvert AB\rvert=\sqrt{a^2+b^2}$$, so
 
 $$
-d=\frac{2\left[ABP\right]}{\lvert AB\rvert}
-=\frac{ax+by-ab}{\sqrt{a^2+b^2}}.
+d=\frac{2\left[ABQ\right]}{\lvert AB\rvert}
+=\frac{ax_1+by_1-ab}{\sqrt{a^2+b^2}}.
 $$
 
 <figure class="geometry-figure" id="fig-distance" markdown="1">
-<a href="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" alt="Two decompositions of quadrilateral OBPA: along OP into areas ax/2 and by/2, and along AB to show triangle ABP and its perpendicular height d." loading="lazy"></a>
-<figcaption markdown="span">Figure 2. On the left, dividing along $$OP$$ gives $$ax/2$$ and $$by/2$$. On the right, dividing along $$AB$$ gives $$\left[ABP\right]$$ and its height $$d$$. The numerator of the distance formula is twice $$\left[ABP\right]$$, and the denominator is the length of the base $$AB$$.</figcaption>
+<a href="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" alt="Two decompositions of quadrilateral OBQA: along OQ into areas ax_1/2 and by_1/2, and along AB to show triangle ABQ and its perpendicular height d." loading="lazy"></a>
+<figcaption markdown="span">Figure 2. On the left, dividing along $$OQ$$ gives $$ax_1/2$$ and $$by_1/2$$. On the right, dividing along $$AB$$ gives $$\left[ABQ\right]$$ and its height $$d$$. The numerator of the distance formula is twice $$\left[ABQ\right]$$, and the denominator is the length of the base $$AB$$.</figcaption>
 </figure>
 
-If $$P$$ lies on the other side of the line, the difference of the areas changes sign. Since distance must be nonnegative, we take the absolute value. The same calculation can be carried out beyond the coordinate axes by using oriented areas. We will return to the meaning of this sign later.
+If $$Q$$ lies on the other side of the line, the difference of the areas changes sign. Since distance must be nonnegative, we take the absolute value. The same calculation can be carried out beyond the coordinate axes by using oriented areas. We will return to the meaning of this sign later.
 
 For a general constant $$c$$, we simply translate this line.[^translate-line] This gives the distance formula
 
 $$
-\boxed{\displaystyle d=\frac{\lvert ax+by-c\rvert}{\sqrt{a^2+b^2}}}.
+\boxed{\displaystyle d=\frac{\lvert ax_1+by_1-c\rvert}{\sqrt{a^2+b^2}}}.
 $$
 
 When one coefficient is $$0$$, the formula can be checked directly as the distance to a horizontal or vertical line. Coefficients of different signs can also be understood with the same picture by reversing the directions of the coordinate axes. We do, however, require $$(a,b)\ne(0,0)$$.
@@ -381,7 +381,7 @@ See you in the next post!
 
 [^vertical-line]: Here we have in mind the case $$b\ne0$$. If $$b=0$$ and $$a\ne0$$, the equation is the vertical line $$x=c/a$$.
 
-[^translate-line]: When $$a\ne0$$, translating by $$t=(c-ab)/a$$ in the $$x$$-direction gives $$ax+by=c$$. Reading $$P$$ as $$(x-t,y)$$ in the coordinates before the translation, the numerator of the distance formula becomes $$\lvert a(x-t)+by-ab\rvert=\lvert ax+by-c\rvert$$.
+[^translate-line]: When $$a\ne0$$, translating by $$t=(c-ab)/a$$ in the $$x$$-direction gives $$ax+by=c$$. Reading $$Q$$ as $$(x_1-t,y_1)$$ in the coordinates before the translation, the numerator of the distance formula becomes $$\lvert a(x_1-t)+by_1-ab\rvert=\lvert ax_1+by_1-c\rvert$$.
 
 [^convex-quadrilateral]: We begin with a convex configuration in which $$a,b,c,d>0$$ and $$ac+bd>ab$$. Then $$O$$ and $$P$$ lie on opposite sides of $$AB$$, and the two diagonals intersect in the interior. We will extend this to other configurations later using signed areas.
 

@@ -59,34 +59,34 @@ $$
 
 ## 2. 점과 직선 사이의 거리
 
-이번에는 $$P=(x,y)$$를 $$AB$$ 바깥쪽으로 옮겨 보겠습니다. 그림처럼 $$x,y>0$$, $$ax+by>ab$$인 위치를 생각하면, 사각형 $$OBPA$$를 두 가지 방식으로 나눌 수 있습니다.
+이번에는 직선 $$AB$$ 바깥쪽에 있는 점 $$Q=(x_1,y_1)$$에 대해서 살펴보겠습니다. 그림처럼 $$x_1,y_1>0$$, $$ax_1+by_1>ab$$인 위치를 생각하면, 사각형 $$OBQA$$를 두 가지 방식으로 나눌 수 있습니다.
 
-대각선 $$OP$$를 따라 나누면 두 삼각형의 넓이 합은 여전히 $$\frac12(ax+by)$$입니다. 반면 대각선 $$AB$$를 따라 나누면, 원래의 삼각형 $$OAB$$에 새 삼각형 $$ABP$$를 붙인 모양입니다. 따라서
+대각선 $$OQ$$를 따라 나누면 두 삼각형의 넓이 합은 여전히 $$\frac12(ax_1+by_1)$$입니다. 반면 대각선 $$AB$$를 따라 나누면, 원래의 삼각형 $$OAB$$에 새 삼각형 $$ABQ$$를 붙인 모양입니다. 따라서
 
 $$
-\left[ABP\right]=\frac12(ax+by-ab).
+\left[ABQ\right]=\frac12(ax_1+by_1-ab).
 $$
 
 이 새 삼각형에서 $$AB$$를 밑변으로 택하면 높이가 바로 구하려는 거리 $$d$$입니다. 피타고라스 정리로 $$\lvert AB\rvert=\sqrt{a^2+b^2}$$이므로
 
 $$
-d=\frac{2\left[ABP\right]}{\lvert AB\rvert}
-   =\frac{ax+by-ab}{\sqrt{a^2+b^2}}.
+d=\frac{2\left[ABQ\right]}{\lvert AB\rvert}
+   =\frac{ax_1+by_1-ab}{\sqrt{a^2+b^2}}.
 $$
 
 <figure class="geometry-figure" id="fig-distance" markdown="1">
   <a href="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" alt="같은 사각형을 대각선 OP와 AB로 각각 나누어 점 P에서 직선 AB까지의 거리를 구하는 그림" loading="lazy">
+    <img src="{{ '/assets/img/blog/geometry-of-inner-product/fig02_distance.svg' | relative_url }}" alt="같은 사각형을 대각선 OQ와 AB로 각각 나누어 점 Q에서 직선 AB까지의 거리를 구하는 그림" loading="lazy">
   </a>
-  <figcaption markdown="span">그림 2. 왼쪽은 $$OP$$로 나누어 $$ax/2$$와 $$by/2$$를 읽은 그림이고, 오른쪽은 $$AB$$로 나누어 $$\left[ABP\right]$$와 그 높이 $$d$$를 읽은 그림입니다. 거리 공식의 분자는 $$\left[ABP\right]$$의 두 배, 분모는 밑변 $$AB$$의 길이입니다.</figcaption>
+  <figcaption markdown="span">그림 2. 왼쪽은 $$OQ$$로 나누어 $$ax_1/2$$와 $$by_1/2$$를 읽은 그림이고, 오른쪽은 $$AB$$로 나누어 $$\left[ABQ\right]$$와 그 높이 $$d$$를 읽은 그림입니다. 거리 공식의 분자는 $$\left[ABQ\right]$$의 두 배, 분모는 밑변 $$AB$$의 길이입니다.</figcaption>
 </figure>
 
-$$P$$가 직선의 반대쪽에 있으면 넓이의 차이의 부호가 바뀝니다. 거리는 양수여야 하므로 이를 절댓값으로 처리하면 됩니다. 좌표축 바깥까지 포함하는 경우에는 방향을 정한 넓이로 같은 계산을 할 수 있습니다. 이 부호의 의미는 뒤에서 다시 살펴보겠습니다.
+$$Q$$가 직선의 반대쪽에 있으면 넓이의 차이의 부호가 바뀝니다. 거리는 양수여야 하므로 이를 절댓값으로 처리하면 됩니다. 좌표축 바깥까지 포함하는 경우에는 방향을 정한 넓이로 같은 계산을 할 수 있습니다. 이 부호의 의미는 뒤에서 다시 살펴보겠습니다.
 
 상수가 일반적인 $$c$$일 때에는 이 직선을 평행이동하면 됩니다.[^2] 그러면 다음 거리 공식을 얻습니다.
 
 $$
-\boxed{\displaystyle d=\frac{\lvert ax+by-c\rvert}{\sqrt{a^2+b^2}}}
+\boxed{\displaystyle d=\frac{\lvert ax_1+by_1-c\rvert}{\sqrt{a^2+b^2}}}
 $$
 
 한 계수가 $$0$$인 경우는 수평선이나 수직선까지의 거리로 바로 확인할 수 있습니다. 계수의 부호가 다른 경우도 좌표축의 방향을 뒤집어 같은 그림으로 이해할 수 있습니다. 단, $$(a,b)\ne(0,0)$$이어야 합니다.
@@ -397,7 +397,7 @@ $$
 
 [^1]: 여기서는 $$b\ne0$$인 경우를 떠올리고 있습니다. $$b=0$$, $$a\ne0$$이면 $$x=c/a$$라는 수직선입니다.
 
-[^2]: $$a\ne0$$일 때 $$t=(c-ab)/a$$만큼 $$x$$방향으로 옮기면 $$ax+by=c$$가 됩니다. 평행이동 전 좌표에서 $$P$$를 $$(x-t,y)$$로 읽으면 거리 공식의 분자는 $$\lvert a(x-t)+by-ab\rvert=\lvert ax+by-c\rvert$$입니다.
+[^2]: $$a\ne0$$일 때 $$t=(c-ab)/a$$만큼 $$x$$방향으로 옮기면 $$ax+by=c$$가 됩니다. 평행이동 전 좌표에서 $$Q$$를 $$(x_1-t,y_1)$$로 읽으면 거리 공식의 분자는 $$\lvert a(x_1-t)+by_1-ab\rvert=\lvert ax_1+by_1-c\rvert$$입니다.
 
 [^3]: 우선 $$a,b,c,d>0$$, $$ac+bd>ab$$인 볼록한 배치로 그립니다. 이때 $$O$$와 $$P$$는 $$AB$$의 반대쪽에 있고 두 대각선이 내부에서 만납니다. 다른 배치까지의 확장은 뒤에서 부호 있는 넓이로 다룹니다.
 
