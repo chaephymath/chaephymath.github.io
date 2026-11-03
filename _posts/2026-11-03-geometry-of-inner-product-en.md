@@ -389,6 +389,6 @@ See you in the next post!
 
 [^bipyramid]: More precisely, the configuration satisfies $$d,e,f>0$$ and $$d/\alpha+e/\beta+f/\gamma>1$$. Then $$OP$$ passes through the interior of triangle $$XYZ$$, and the interiors of the three triangular pyramids do not overlap.
 
-[^historical-note]: This is not a claim that dual spaces were historically defined this way. Rather, I am proposing that we use the pictures developed in this post as motivation for the definition.
+[^historical-note]: This is not a claim that dual spaces were historically defined this way. The aim is to explain why this is a natural way to define the dual space.
 
 </div>
