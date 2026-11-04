@@ -334,7 +334,7 @@ Here, $$\mathcal V(v)$$ does not mean the ordinary volume of a single convex sol
 
 The quantity we read as a sum of heights in the pictures must therefore be read more generally as a difference of oriented heights. If $$u$$ and $$v$$ form an obtuse angle, the projection of $$v$$ measured in the direction of $$u$$ is negative. Signs of coefficients can be handled by changing the directions of the axes, and the result extends continuously to cases where some components are $$0$$. The zero vector, however, has no defined direction or angle, so the expression involving a cosine is restricted to the case where both vectors are nonzero. If either vector is zero, the sum of the coordinate products is simply $$0$$.
 
-Had we discarded orientation and kept only the magnitudes of areas or volumes, we would have measured $$v$$ and $$-v$$ as the same value. Now, reversing the direction of the input also reverses the sign of the measurement. As we examine how this behavior extends to addition and scalar multiplication, the picture begins to read as a linear functional.
+Had we discarded orientation and kept only the magnitudes of areas or volumes, we would have measured $$v$$ and $$-v$$ as the same value. Now, reversing the direction of the input also reverses the sign of the measurement. As we examine how this behavior extends to addition and multiplication by a scalar, the picture begins to read as a linear functional.
 
 ## 7. Linear functionals and dual spaces
 
