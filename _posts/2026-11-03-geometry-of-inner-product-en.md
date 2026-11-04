@@ -425,7 +425,7 @@ The three quadrilaterals $$OBP_iA$$ share the triangle $$OAB$$. Their remaining 
 
 Changing $$c$$ produces parallel lines. Taking the absolute difference between two function values and dividing by $$\sqrt{a^2+b^2}$$ gives the distance between those lines. The linear expression that we first read as an area now reads as a linear functional whose equal values describe lines in the plane.
 
-Looking back over this journey, we began with a small question about interpreting coordinate products as areas. Dividing the same figure in different ways brought us to projection; fixing part of that figure and interpreting the remaining construction as a function brought us to dual spaces. For me, it is just as interesting to discover **what picture was hidden in a calculation I already knew, and what I can carry from that picture into the next concept**, as it is to learn a new formula.
+Let us retrace the path we have taken. We began by looking for an area interpretation of $$ax+by$$. Along the way, we saw that one vector could provide a geometric reference for measuring another, and we have now come to view the resulting function itself as an element of a vector space. For me, **discovering the geometric meaning in a familiar calculation and considering which properties to take as essential when forming an abstraction** is just as interesting as learning a new formula.
 
 See you in the next post!
 
