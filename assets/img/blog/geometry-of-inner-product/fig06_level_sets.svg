@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="930" viewBox="0 0 1500 930" role="img" aria-labelledby="title desc">
+<title id="title">A fixed diagonal and three equal-area quadrilaterals</title>
+<desc id="desc">The points P1, P2, P3 lie on a line parallel to AB. The quadrilaterals OBP1A, OBP2A, OBP3A share triangle OAB. The other three triangles have common base AB and equal perpendicular heights h, so all three quadrilaterals have equal area.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#889198"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Times New Roman, Times, serif" fill="#263238" stroke-linecap="round" stroke-linejoin="round">
+<polygon points="105.000,820.000 645.000,820.000 105.000,550.000" fill="#e5e8eb" fill-opacity="1" stroke="none" stroke-width="1.8"/>
+<polygon points="105.000,550.000 645.000,820.000 280.500,367.750" fill="#1f5b7d" fill-opacity="0.065" stroke="none" stroke-width="1.8"/>
+<polygon points="105.000,550.000 645.000,820.000 456.000,455.500" fill="#b37430" fill-opacity="0.065" stroke="none" stroke-width="1.8"/>
+<polygon points="105.000,550.000 645.000,820.000 685.500,570.250" fill="#b84d56" fill-opacity="0.065" stroke="none" stroke-width="1.8"/>
+<line x1="88.800" y1="820.000" x2="844.800" y2="820.000" stroke="#889198" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="105.000" y1="836.200" x2="105.000" y2="80.200" stroke="#889198" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polygon points="844.800,820.000 831.300,815.275 831.300,824.725" fill="#889198" fill-opacity="1" stroke="none" stroke-width="1.8"/>
+<polygon points="105.000,80.200 109.725,93.700 100.275,93.700" fill="#889198" fill-opacity="1" stroke="none" stroke-width="1.8"/>
+<line x1="105.000" y1="280.000" x2="854.250" y2="654.625" stroke="#555f66" stroke-width="2.3" />
+<polygon points="854.250,654.625 842.175,642.550 837.345,652.210" fill="#555f66" fill-opacity="1" stroke="none" stroke-width="1.8"/>
+<line x1="105.000" y1="550.000" x2="280.500" y2="367.750" stroke="#1f5b7d" stroke-width="2.5" />
+<line x1="645.000" y1="820.000" x2="280.500" y2="367.750" stroke="#1f5b7d" stroke-width="2.5" />
+<line x1="105.000" y1="550.000" x2="456.000" y2="455.500" stroke="#b37430" stroke-width="2.5" />
+<line x1="645.000" y1="820.000" x2="456.000" y2="455.500" stroke="#b37430" stroke-width="2.5" />
+<line x1="105.000" y1="550.000" x2="685.500" y2="570.250" stroke="#b84d56" stroke-width="2.5" />
+<line x1="645.000" y1="820.000" x2="685.500" y2="570.250" stroke="#b84d56" stroke-width="2.5" />
+<line x1="105.000" y1="820.000" x2="105.000" y2="550.000" stroke="#59656e" stroke-width="2.1" />
+<line x1="105.000" y1="820.000" x2="645.000" y2="820.000" stroke="#59656e" stroke-width="2.1" />
+<line x1="105.000" y1="550.000" x2="645.000" y2="820.000" stroke="#2c8c7b" stroke-width="4.2" />
+<line x1="172.500" y1="583.750" x2="175.630" y2="577.489" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="178.314" y1="572.122" x2="181.444" y2="565.861" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="184.128" y1="560.495" x2="187.258" y2="554.234" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="189.941" y1="548.867" x2="193.072" y2="542.606" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="195.755" y1="537.240" x2="198.886" y2="530.979" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="201.569" y1="525.612" x2="204.699" y2="519.351" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="207.383" y1="513.985" x2="210.513" y2="507.724" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="213.196" y1="502.357" x2="216.327" y2="496.096" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="219.010" y1="490.730" x2="222.141" y2="484.469" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="224.824" y1="479.102" x2="227.954" y2="472.841" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="230.638" y1="467.474" x2="233.768" y2="461.213" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="236.452" y1="455.847" x2="239.582" y2="449.586" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="242.265" y1="444.219" x2="245.396" y2="437.958" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="248.079" y1="432.592" x2="251.210" y2="426.331" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="253.893" y1="420.964" x2="257.023" y2="414.703" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="259.707" y1="409.337" x2="262.837" y2="403.076" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="265.520" y1="397.709" x2="268.651" y2="391.448" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="271.334" y1="386.082" x2="274.465" y2="379.821" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="277.148" y1="374.454" x2="280.278" y2="368.193" stroke="#1f5b7d" stroke-width="2.2" />
+<line x1="184.575" y1="589.787" x2="190.612" y2="577.713" stroke="#1f5b7d" stroke-width="1.5" />
+<line x1="190.612" y1="577.713" x2="178.537" y2="571.675" stroke="#1f5b7d" stroke-width="1.5" />
+<line x1="219.859" y1="472.429" x2="233.141" y2="479.071" stroke="#1f5b7d" stroke-width="2.5" />
+<text x="247.027" y="486.014" fill="white" font-size="27" font-style="italic" stroke="white" stroke-width="5">h₁</text>
+<text x="247.027" y="486.014" font-size="27" text-anchor="start" fill="#1f5b7d" font-style="italic">h₁</text>
+<circle cx="280.500" cy="367.750" r="5.2" fill="#1f5b7d"/>
+<text x="289.5" y="354.75" font-size="30" text-anchor="start" fill="#1f5b7d" font-style="italic">P₁</text>
+<circle cx="172.500" cy="583.750" r="2.7" fill="#1f5b7d"/>
+<line x1="348.000" y1="671.500" x2="351.130" y2="665.239" stroke="#b37430" stroke-width="2.2" />
+<line x1="353.814" y1="659.872" x2="356.944" y2="653.611" stroke="#b37430" stroke-width="2.2" />
+<line x1="359.628" y1="648.245" x2="362.758" y2="641.984" stroke="#b37430" stroke-width="2.2" />
+<line x1="365.441" y1="636.617" x2="368.572" y2="630.356" stroke="#b37430" stroke-width="2.2" />
+<line x1="371.255" y1="624.990" x2="374.386" y2="618.729" stroke="#b37430" stroke-width="2.2" />
+<line x1="377.069" y1="613.362" x2="380.199" y2="607.101" stroke="#b37430" stroke-width="2.2" />
+<line x1="382.883" y1="601.735" x2="386.013" y2="595.474" stroke="#b37430" stroke-width="2.2" />
+<line x1="388.696" y1="590.107" x2="391.827" y2="583.846" stroke="#b37430" stroke-width="2.2" />
+<line x1="394.510" y1="578.480" x2="397.641" y2="572.219" stroke="#b37430" stroke-width="2.2" />
+<line x1="400.324" y1="566.852" x2="403.454" y2="560.591" stroke="#b37430" stroke-width="2.2" />
+<line x1="406.138" y1="555.224" x2="409.268" y2="548.963" stroke="#b37430" stroke-width="2.2" />
+<line x1="411.952" y1="543.597" x2="415.082" y2="537.336" stroke="#b37430" stroke-width="2.2" />
+<line x1="417.765" y1="531.969" x2="420.896" y2="525.708" stroke="#b37430" stroke-width="2.2" />
+<line x1="423.579" y1="520.342" x2="426.710" y2="514.081" stroke="#b37430" stroke-width="2.2" />
+<line x1="429.393" y1="508.714" x2="432.523" y2="502.453" stroke="#b37430" stroke-width="2.2" />
+<line x1="435.207" y1="497.087" x2="438.337" y2="490.826" stroke="#b37430" stroke-width="2.2" />
+<line x1="441.020" y1="485.459" x2="444.151" y2="479.198" stroke="#b37430" stroke-width="2.2" />
+<line x1="446.834" y1="473.832" x2="449.965" y2="467.571" stroke="#b37430" stroke-width="2.2" />
+<line x1="452.648" y1="462.204" x2="455.778" y2="455.943" stroke="#b37430" stroke-width="2.2" />
+<line x1="360.075" y1="677.537" x2="366.112" y2="665.463" stroke="#b37430" stroke-width="1.5" />
+<line x1="366.112" y1="665.463" x2="354.037" y2="659.425" stroke="#b37430" stroke-width="1.5" />
+<line x1="395.359" y1="560.179" x2="408.641" y2="566.821" stroke="#b37430" stroke-width="2.5" />
+<text x="422.527" y="573.764" fill="white" font-size="27" font-style="italic" stroke="white" stroke-width="5">h₂</text>
+<text x="422.527" y="573.764" font-size="27" text-anchor="start" fill="#b37430" font-style="italic">h₂</text>
+<circle cx="456.000" cy="455.500" r="5.2" fill="#b37430"/>
+<text x="465.0" y="442.5" font-size="30" text-anchor="start" fill="#b37430" font-style="italic">P₂</text>
+<circle cx="348.000" cy="671.500" r="2.7" fill="#b37430"/>
+<line x1="577.500" y1="786.250" x2="580.630" y2="779.989" stroke="#b84d56" stroke-width="2.2" />
+<line x1="583.314" y1="774.622" x2="586.444" y2="768.361" stroke="#b84d56" stroke-width="2.2" />
+<line x1="589.128" y1="762.995" x2="592.258" y2="756.734" stroke="#b84d56" stroke-width="2.2" />
+<line x1="594.941" y1="751.367" x2="598.072" y2="745.106" stroke="#b84d56" stroke-width="2.2" />
+<line x1="600.755" y1="739.740" x2="603.886" y2="733.479" stroke="#b84d56" stroke-width="2.2" />
+<line x1="606.569" y1="728.112" x2="609.699" y2="721.851" stroke="#b84d56" stroke-width="2.2" />
+<line x1="612.383" y1="716.485" x2="615.513" y2="710.224" stroke="#b84d56" stroke-width="2.2" />
+<line x1="618.196" y1="704.857" x2="621.327" y2="698.596" stroke="#b84d56" stroke-width="2.2" />
+<line x1="624.010" y1="693.230" x2="627.141" y2="686.969" stroke="#b84d56" stroke-width="2.2" />
+<line x1="629.824" y1="681.602" x2="632.954" y2="675.341" stroke="#b84d56" stroke-width="2.2" />
+<line x1="635.638" y1="669.974" x2="638.768" y2="663.713" stroke="#b84d56" stroke-width="2.2" />
+<line x1="641.452" y1="658.347" x2="644.582" y2="652.086" stroke="#b84d56" stroke-width="2.2" />
+<line x1="647.265" y1="646.719" x2="650.396" y2="640.458" stroke="#b84d56" stroke-width="2.2" />
+<line x1="653.079" y1="635.092" x2="656.210" y2="628.831" stroke="#b84d56" stroke-width="2.2" />
+<line x1="658.893" y1="623.464" x2="662.023" y2="617.203" stroke="#b84d56" stroke-width="2.2" />
+<line x1="664.707" y1="611.837" x2="667.837" y2="605.576" stroke="#b84d56" stroke-width="2.2" />
+<line x1="670.520" y1="600.209" x2="673.651" y2="593.948" stroke="#b84d56" stroke-width="2.2" />
+<line x1="676.334" y1="588.582" x2="679.465" y2="582.321" stroke="#b84d56" stroke-width="2.2" />
+<line x1="682.148" y1="576.954" x2="685.278" y2="570.693" stroke="#b84d56" stroke-width="2.2" />
+<line x1="589.575" y1="792.287" x2="595.612" y2="780.213" stroke="#b84d56" stroke-width="1.5" />
+<line x1="595.612" y1="780.213" x2="583.537" y2="774.175" stroke="#b84d56" stroke-width="1.5" />
+<line x1="624.859" y1="674.929" x2="638.141" y2="681.571" stroke="#b84d56" stroke-width="2.5" />
+<text x="652.027" y="688.514" fill="white" font-size="27" font-style="italic" stroke="white" stroke-width="5">h₃</text>
+<text x="652.027" y="688.514" font-size="27" text-anchor="start" fill="#b84d56" font-style="italic">h₃</text>
+<circle cx="685.500" cy="570.250" r="5.2" fill="#b84d56"/>
+<text x="694.5" y="557.25" font-size="30" text-anchor="start" fill="#b84d56" font-style="italic">P₃</text>
+<circle cx="577.500" cy="786.250" r="2.7" fill="#b84d56"/>
+<circle cx="105.000" cy="820.000" r="4.4" fill="#263238"/>
+<circle cx="105.000" cy="550.000" r="4.4" fill="#263238"/>
+<circle cx="645.000" cy="820.000" r="4.4" fill="#263238"/>
+<text x="83" y="848" font-size="28" text-anchor="start" fill="#263238" font-style="italic">O</text>
+<text x="86" y="542" font-size="30" text-anchor="end" fill="#263238" font-style="italic">A</text>
+<text x="640" y="857" font-size="30" text-anchor="start" fill="#263238" font-style="italic">B</text>
+<text x="860" y="828" font-size="28" text-anchor="start" fill="#263238" font-style="italic">x</text>
+<text x="96" y="65" font-size="28" text-anchor="start" fill="#263238" font-style="italic">y</text>
+<text x="267.0" y="739.0" font-size="32" text-anchor="middle" fill="#64717a" font-style="italic">OAB</text>
+<text x="475" y="310" font-size="32" text-anchor="start" fill="#404a51" font-style="italic">ax + by = c</text>
+<line x1="918" y1="193" x2="918" y2="790" stroke="#e3e7ea" stroke-width="1.5"/>
+<text x="970" y="253" font-size="30" text-anchor="start" fill="#64717a">[OAB] = ab / 2</text>
+<text x="970" y="330" font-size="29" text-anchor="start" fill="#2c8c7b" font-style="italic">AB : ax + by = ab</text>
+<text x="970" y="407" font-size="32" text-anchor="start" fill="#263238">h₁ = h₂ = h₃ = h</text>
+<text x="970" y="489" font-size="29" text-anchor="start" fill="#263238">[ABP₁] = [ABP₂] = [ABP₃]</text>
+<text x="1010" y="535" font-size="30" text-anchor="start" fill="#263238">= ½ |AB| h</text>
+<text x="970" y="622" font-size="27" text-anchor="start" fill="#263238">[OBP₁A] = [OBP₂A] = [OBP₃A]</text>
+<text x="1010" y="668" font-size="29" text-anchor="start" fill="#263238">= ½ ab + ½ |AB| h = c / 2</text>
+<text x="970" y="759" font-size="28" text-anchor="start" fill="#263238">ℓᵤ(v₁) = ℓᵤ(v₂) = ℓᵤ(v₃) = c</text>
+</g></svg>

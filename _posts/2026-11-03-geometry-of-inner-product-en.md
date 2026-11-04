@@ -26,7 +26,9 @@ Along the way, I arrived at the idea of rotating one vector by $$90^\circ$$. Lat
 
 ## 1. The equation of a line and area
 
-First, to keep the picture simple, assume that $$a,b>0$$. Take the origin $$O$$ and the two points
+For a general line $$ax+by=c$$ with $$(a,b)\ne(0,0)$$, we can translate the coordinate origin so that the equation becomes $$ax+by=ab$$.[^translation] The translation preserves lengths and areas, so let us begin with this form. To keep the triangle in the picture simple, assume that $$a,b>0$$. Other signs can be handled by reversing coordinate axes; if either coefficient is zero, we can treat the resulting horizontal or vertical line directly.
+
+Take the origin $$O$$ and the two points
 
 $$
 A=(0,a),\qquad B=(b,0).
@@ -79,7 +81,7 @@ $$
 
 If $$Q$$ lies on the other side of the line, the difference of the areas changes sign. Since distance must be nonnegative, we take the absolute value. The same calculation can be carried out beyond the coordinate axes by using oriented areas. We will return to the meaning of this sign later.
 
-For a general constant $$c$$, we simply translate this line.[^translate-line] This gives the distance formula
+As we saw in the previous section, a translation lets us pass between $$ax+by=ab$$ and the general line $$ax+by=c$$. Since translation preserves distances, the same calculation gives[^translate-line]
 
 $$
 \boxed{\displaystyle d=\frac{\lvert ax_1+by_1-c\rvert}{\sqrt{a^2+b^2}}}.
@@ -336,34 +338,71 @@ Had we discarded orientation and kept only the magnitudes of areas or volumes, w
 
 ## 7. Linear functionals and dual spaces
 
-I would like to use the pictures we have developed as a starting point for understanding the definition of a dual space.[^historical-note] The key is to give the two vectors different roles: **fix one vector $$u$$ as a standard of measurement, and measure the other vector $$v$$ against it.**
+We have connected the coordinate formula for the inner product with orthogonal projection by dividing the same figure in different ways. Now let us fix one of the two vectors and return to that picture. I would like to use this step as a starting point for understanding dual spaces.[^historical-note]
 
-In the earlier construction with positive components, fixing $$u$$ determines the segment $$AB$$ in two dimensions, or the bases in the three coordinate planes in three dimensions. Each time we move the endpoint of $$v$$, we obtain an oriented area or volume. If we multiply the area by $$2$$ or the volume by $$3$$, both pictures give the same rule:
+In two dimensions, fixing $$u$$ fixes the diagonal $$AB$$ of our quadrilateral. In three dimensions, it fixes the common triangular base $$XYZ$$ that divides the solid into two triangular pyramids. The length of $$AB$$ or the area of $$XYZ$$ is $$\left\lVert u\right\rVert$$, and the direction perpendicular to it is the direction of $$u$$. These are the fixed geometric references supplied by $$u$$ in our earlier construction.
+
+Now let the other vector $$v$$ vary. Joining its endpoint $$P$$ and the origin $$O$$ to the fixed segment or face produces the whole quadrilateral or bipyramid. Its shape changes with $$v$$, and so does its oriented area or volume. **Once $$u$$ is fixed, this construction takes a vector $$v$$ as input and returns a single number.**
+
+Multiplying the oriented area by $$2$$ or the oriented volume by $$3$$ gives the function
 
 $$
 \ell_u(v)=u\cdot v.
 $$
 
-Geometrically, we are measuring a height while holding a base segment or base face fixed. As a function, the rule takes a vector as input and returns a real number.
+The real number returned by this function is therefore twice the oriented area, or three times the oriented volume, of the whole figure. With the same construction in $$n$$ dimensions, it is $$n$$ times the oriented $$n$$-dimensional volume, or hypervolume. The factors $$2$$, $$3$$, and $$n$$ come from the area and volume formulas for triangles and pyramids.
 
-This way of measuring has a special property. Adding input vectors adds their measurements, and multiplying an input vector by a real number multiplies its measurement by the same number:
+Here, the total includes both $$O$$ and $$P$$. For example, we use the whole quadrilateral $$OBPA$$, including the fixed triangle $$OAB$$. Geometrically, the quantity that varies linearly is the signed displacement from $$O$$ to $$P$$ in the normal direction. The oriented sums from the previous section let us keep this interpretation even when the picture is no longer a convex quadrilateral or bipyramid.
+
+This function has a special property. Adding input vectors adds the output values, and multiplying an input vector by a real number multiplies the output by the same number:
 
 $$
 \ell_u(v+w)=\ell_u(v)+\ell_u(w),\qquad
 \ell_u(tv)=t\ell_u(v).
 $$
 
-These are properties of oriented projection lengths measured along a fixed normal direction, and they can also be checked directly in coordinates. Let us keep this **linearity** and set aside, for a moment, the particular triangles and triangular pyramids used to construct the measurement. Could we collect all the ways of measuring that obey these rules on a vector space, and treat them as a new space?
+These are properties of signed projection lengths along the fixed normal direction, and we can also check them directly in coordinates. Thus $$\ell_u$$ is linear. A linear function that takes a vector and returns a scalar is called a **linear functional**.
 
-This question leads naturally to the following definition. The dual space of a real vector space $$V$$ is
+We can now consider these functions as objects in their own right. For a vector space $$V$$ over a field $$\mathbb F$$, the **dual space** is the set of all linear functionals on $$V$$:
 
 $$
-V^*=\{\ell:V\to\mathbb R\mid\ell\text{ is a linear functional}\}.
+V^*=\{\ell:V\to\mathbb F\mid\ell\text{ is linear}\}.
 $$
 
-Adding the results of two such measurements, or multiplying the results of one by a real number, gives another linear way of measuring. These measurements therefore do form a vector space. **We have moved from studying vectors in a space to studying the ways of measuring those vectors linearly.** This is how I would like to understand the abstraction that takes us from pictures of areas and volumes to a dual space.
+In our geometric examples, $$\mathbb F=\mathbb R$$. Each element of $$V^*$$ is a function that receives a vector and returns one scalar. We add and scale these functions by adding and scaling their outputs:
 
-The definition itself requires no length, angle, or inner product. The inner product is additional structure that, in our original picture, turned $$u$$ into the measurement $$\ell_u$$. In a finite-dimensional real inner product space, every linear functional can be written as $$\ell_u(v)=\langle u,v\rangle$$ for a unique $$u$$, but this correspondence depends on the chosen inner product. We should therefore distinguish the fact that vectors can be identified with dual vectors from the claim that the two play the same role.
+$$
+(\ell_1+\ell_2)(v)=\ell_1(v)+\ell_2(v),\qquad
+(t\ell)(v)=t\ell(v).
+$$
+
+The resulting functions are again linear. With these operations, the linear functionals themselves form a vector space. This is why we call their collection the dual **space**.
+
+In a finite-dimensional real inner product space, every linear functional arises from a unique vector $$u$$ through $$\ell_u(v)=\langle u,v\rangle$$. The correspondence also preserves addition and scalar multiplication:
+
+$$
+\ell_{u+w}=\ell_u+\ell_w,\qquad
+\ell_{tu}=t\ell_u.
+$$
+
+In summary, **we can view the same $$u$$ as an arrow in space, or associate it with a function that uses a fixed diagonal or common base to calculate the oriented area or volume produced by another vector.** In the first role, we have a vector in $$V$$; in the second, we have the corresponding linear functional in $$V^*$$. This relationship between vectors and the functions they determine is the picture of duality I want to carry from our geometric construction.
+
+The definition of $$V^*$$ itself requires no length, angle, or inner product. The inner product supplies the additional structure that associates $$u$$ with $$\ell_u$$, and changing the inner product can change that correspondence.
+
+There is also a familiar matrix expression for this change of role. In standard orthonormal coordinates with the usual real inner product, write the vectors as columns. Then
+
+$$
+u=\begin{pmatrix}a\\b\end{pmatrix},\qquad
+v=\begin{pmatrix}x\\y\end{pmatrix},\qquad
+\ell_u(v)=u^{\mathsf T}v
+=\begin{pmatrix}a&b\end{pmatrix}
+ \begin{pmatrix}x\\y\end{pmatrix}
+=ax+by.
+$$
+
+The column $$u$$ represents the vector, while the row $$u^{\mathsf T}$$ represents the corresponding linear functional acting on an input vector. In the geometric picture, we used $$u$$ to construct a fixed diagonal or common base. In the matrix expression, the same passage from a vector to a function appears as the passage from a column to a row.
+
+The transpose itself does not perform the geometric rotation. Our clockwise rotation changed $$(a,b)$$ to $$(b,-a)$$, whereas transposition leaves the components unchanged. Rather, the rotation-and-area construction and the row-vector expression describe the same function $$\ell_u$$ in two different ways.
 
 Returning now to our original equation,
 
@@ -373,15 +412,28 @@ ax+by=c
 \ell_{(a,b)}(x,y)=c
 $$
 
-collects all the points at which a fixed measurement gives the same value. Changing $$c$$ produces parallel lines. Taking the absolute difference between two measurement values and dividing by $$\sqrt{a^2+b^2}$$ gives the distance between those lines. The linear expression that we first read as an area now reads as a linear functional that groups points in space according to their measured values.
+collects all the points at which a fixed linear functional gives the same value. We can see this directly by fixing $$A=(0,a)$$ and $$B=(b,0)$$ and choosing three points $$P_1,P_2,P_3$$ on $$ax+by=c$$, beyond $$AB$$ as in the figure.[^level-set-position]
 
-Looking back over this journey, we began with a small question about interpreting coordinate products as areas. Dividing the same figure in different ways brought us to projection; abstracting the way that figure measures vectors brought us to dual spaces. For me, it is just as interesting to discover **what picture was hidden in a calculation I already knew, and what I can carry from that picture into the next concept**, as it is to learn a new formula.
+The three quadrilaterals $$OBP_iA$$ share the triangle $$OAB$$. Their remaining triangles $$ABP_i$$ have the same base $$AB$$ and the same height, because the points $$P_i$$ lie on a line parallel to $$AB$$. The quadrilaterals therefore have the same total area even though their shapes differ. For $$v_i=\overrightarrow{OP_i}$$, this says exactly that $$\ell_u(v_1)=\ell_u(v_2)=\ell_u(v_3)=c$$.
+
+<figure class="geometry-figure" id="fig-level-sets" markdown="1">
+  <a href="{{ '/assets/img/blog/geometry-of-inner-product/fig06_level_sets.svg' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/blog/geometry-of-inner-product/fig06_level_sets.svg' | relative_url }}" alt="Three overlapping quadrilaterals OBP_iA share triangle OAB. The points P_i lie on a line parallel to the fixed diagonal AB, so the triangles ABP_i have equal perpendicular heights and equal areas." loading="lazy">
+  </a>
+  <figcaption markdown="span">Figure 8. A fixed diagonal and equal areas. The three quadrilaterals share $$OAB$$, and the triangles $$ABP_i$$ have the same base and height. Their total areas are therefore equal, so the three input vectors $$v_i=\overrightarrow{OP_i}$$ give the same value of $$\ell_u$$.</figcaption>
+</figure>
+
+Changing $$c$$ produces parallel lines. Taking the absolute difference between two function values and dividing by $$\sqrt{a^2+b^2}$$ gives the distance between those lines. The linear expression that we first read as an area now reads as a linear functional whose equal values describe lines in the plane.
+
+Looking back over this journey, we began with a small question about interpreting coordinate products as areas. Dividing the same figure in different ways brought us to projection; fixing part of that figure and interpreting the remaining construction as a function brought us to dual spaces. For me, it is just as interesting to discover **what picture was hidden in a calculation I already knew, and what I can carry from that picture into the next concept**, as it is to learn a new formula.
 
 See you in the next post!
 
 [^vertical-line]: Here we have in mind the case $$b\ne0$$. If $$b=0$$ and $$a\ne0$$, the equation is the vertical line $$x=c/a$$.
 
-[^translate-line]: When $$a\ne0$$, translating by $$t=(c-ab)/a$$ in the $$x$$-direction gives $$ax+by=c$$. Reading $$Q$$ as $$(x_1-t,y_1)$$ in the coordinates before the translation, the numerator of the distance formula becomes $$\lvert a(x_1-t)+by_1-ab\rvert=\lvert ax_1+by_1-c\rvert$$.
+[^translation]: Choose $$r,s$$ so that $$ar+bs=c-ab$$ and set $$x'=x-r$$, $$y'=y-s$$. Then $$ax+by=c$$ becomes $$ax'+by'=ab$$. Such $$r,s$$ exist whenever $$(a,b)\ne(0,0)$$; for example, if $$a\ne0$$, choose $$r=(c-ab)/a$$ and $$s=0$$.
+
+[^translate-line]: Using the translation from Section 1, when $$a\ne0$$ we can take $$t=(c-ab)/a$$ in the $$x$$-direction. Reading $$Q$$ as $$(x_1-t,y_1)$$ in the translated coordinates, the numerator of the distance formula becomes $$\lvert a(x_1-t)+by_1-ab\rvert=\lvert ax_1+by_1-c\rvert$$. If $$a=0$$, use the corresponding translation in the $$y$$-direction.
 
 [^convex-quadrilateral]: We begin with a convex configuration in which $$a,b,c,d>0$$ and $$ac+bd>ab$$. Then $$O$$ and $$P$$ lie on opposite sides of $$AB$$, and the two diagonals intersect in the interior. We will extend this to other configurations later using signed areas.
 
@@ -390,5 +442,7 @@ See you in the next post!
 [^bipyramid]: More precisely, the configuration satisfies $$d,e,f>0$$ and $$d/\alpha+e/\beta+f/\gamma>1$$. Then $$OP$$ passes through the interior of triangle $$XYZ$$, and the interiors of the three triangular pyramids do not overlap.
 
 [^historical-note]: This is not a claim that dual spaces were historically defined this way. The aim is to explain why this is a natural way to define the dual space.
+
+[^level-set-position]: The figure assumes $$a,b>0$$, $$c>ab$$, and points $$P_i$$ in the first quadrant. Every point of triangle $$OAB$$ satisfies $$0\le ax+by\le ab<c$$, so the whole triangle lies on the origin side of $$ax+by=c$$, with $$O$$ and $$P_i$$ on opposite sides of $$AB$$. The plotted example uses $$a=2$$, $$b=4$$, and $$c=16$$. Other configurations are handled by the oriented areas introduced in Section 6.
 
 </div>
