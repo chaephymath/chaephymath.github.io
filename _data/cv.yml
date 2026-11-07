@@ -89,13 +89,13 @@ cv:
             Studied energy and pressure estimates in whole-space, half-space, and corner domains, including
             boundary compatibility and elliptic regularity.
           - Prepared a research report and presented the work.
-      - company: Convergence — Mathematics Academic Club
+      - company: SEGL (SNU Experimental Geometry Lab) Project
         bullet: |-
-          **Convergence — Mathematics Academic Club** — Member, SEGL Project, advised by Prof. Gye-Seon Lee · 2023 · SNU, Seoul, South Korea
+          **SEGL (SNU Experimental Geometry Lab) Project** — Project Member, advised by Prof. Gye-Seon Lee · 2023 · SNU, Seoul, South Korea
 
           - Studied discrete hyperbolic reflection groups in the SEGL (SNU Experimental Geometry Lab) project, drawing on Hohlweg–Labbé–Ripoll’s work on infinite Coxeter groups.
           - Contributed theoretical analysis and hand calculations to a collaborative Python visualization of limit sets.
-        position: Member, SEGL Project, advised by Prof. Gye-Seon Lee
+        position: Project Member, advised by Prof. Gye-Seon Lee
         location: SNU, Seoul, South Korea
         date: 2023
         highlights:
@@ -265,6 +265,12 @@ cv:
           Participated in club study sessions on quantum computing, including fundamentals of quantum
           information theory and superconducting quantum circuits. Recognized as an SQRT alumnus (certificate
           issued February 26, 2025).
+      - company: Convergence — Mathematics Academic Club
+        bullet: >-
+          **Convergence — Mathematics Academic Club** — Member, Seoul National University (2023).
+        position: Member
+        location: SNU, Seoul, South Korea
+        date: 2023
 
     Mathematics Schools & Workshops:
       - name: The 6th International Undergraduate Mathematics Summer School
