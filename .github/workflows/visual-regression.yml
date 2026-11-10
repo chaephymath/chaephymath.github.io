@@ -36,7 +36,7 @@ on:
 
 jobs:
   visual-regression:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout candidate 🛎️
@@ -49,6 +49,12 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
 
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
@@ -67,8 +73,8 @@ jobs:
       - name: Install Jupyter + ImageMagick runtime deps 🧰
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick python3-pip
-          pip3 install --user jupyter nbconvert
+          sudo apt-get install -y imagemagick
+          python -m pip install --upgrade jupyter nbconvert
 
       - name: Install Playwright browser 🧪
         run: npx playwright install --with-deps chromium webkit
